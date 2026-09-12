@@ -46,6 +46,7 @@ your own ADB public key before selecting `lineage_RE5465-bp4a-userdebug`.
 - [Reproducing the recovery build](docs/BUILDING.md)
 - [Adapting another Android distribution](docs/PORTING.md)
 - [Build validation and its limits](docs/VALIDATION.md)
+- [Vendor compatibility preflight](docs/COMPATIBILITY.md)
 - [Source provenance and upstream DTS](docs/PROVENANCE.md)
 - [Machine-readable input manifest](metadata/prebuilt-inputs.json)
 

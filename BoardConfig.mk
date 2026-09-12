@@ -17,6 +17,9 @@ TARGET_BOARD_PLATFORM := taro
 TARGET_BOOTLOADER_BOARD_NAME := taro
 TARGET_NO_BOOTLOADER := true
 
+# Explicit interfaces exported by the retained QCOM/Oplus vendor baseline.
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/framework_compatibility_matrix.xml
+
 # Launch API comes from RMX3551 stock vendor, not donor model properties.
 BOARD_SHIPPING_API_LEVEL := 31
 

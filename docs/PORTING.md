@@ -22,9 +22,10 @@ and feature choices. Changing the product name alone does not complete a port.
 - [x] Capture working replacement-panel input events.
 - [x] Build source recovery and inspect ramdisk and AVB.
 - [x] Package authenticated ADB, fastbootd and diagnostic tools.
-- [ ] Build and inspect matching boot/vendor_boot/DTBO outputs.
+- [x] Build and statically inspect matching boot/vendor_boot/DTBO outputs.
+- [x] Verify VNDK 32 payload and pass a staged VINTF metadata preflight.
 - [ ] Curate proprietary-files and ABI fixups from the vendor/odm audit.
-- [ ] Implement framework/vendor VINTF and SELinux compatibility.
+- [ ] Validate final-image VINTF, runtime linkage and SELinux compatibility.
 - [ ] Trace the exact kernel source/KMI for the 5.10.226 baseline.
 - [ ] Complete a source ROM build.
 - [ ] Validate bootloader recovery paths and obtain logs without screen input.

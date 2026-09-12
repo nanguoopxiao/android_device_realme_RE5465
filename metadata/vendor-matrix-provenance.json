@@ -1,0 +1,347 @@
+{
+  "generator": "AOSP assemble_vintf -m -l, then non-AOSP vendor namespace selection",
+  "vendor_sku": "cape",
+  "radio_mode": "dsds",
+  "hal_entries": 139,
+  "format_counts": {
+    "hidl": 95,
+    "aidl": 44
+  },
+  "matrix_sha256": "75118b67d696f9713d457ae419bc82a53c29f99ab687711cee09a1e1e14217da",
+  "inputs": [
+    {
+      "path": "vendor/etc/vintf/manifest_cape.xml",
+      "sha256": "0047626a3802250788937db36cfadb636e8ae9aa7cf15ed36110cc1ba7b6e73a"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml",
+      "sha256": "49e4a804e77b653064e7cb8fc5dc6c6b4aeea2ae4a2a62dab0ff52e0c463ee01"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml",
+      "sha256": "0c4d9c601e8ec42d712d3b55dc5e4806e915d7659325dcb1ea6f700c8d9c4d24"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml",
+      "sha256": "9357fb5a7b17fe81638ec82f79d06007bb35c19016e676104fa55449b5f0f0d2"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml",
+      "sha256": "9f1446741ec21c96292d0446148f95c8a8b610009e04e77d7370ad3ad5d63d55"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
+      "sha256": "b12c00daff67f15983eaf9952d0ded199b2868ad1b9fb512fcab5f6bf813773d"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml",
+      "sha256": "d136319b57589cf93e848219bb0ed677fe5b9efc5e706c6879fb13c9b7019fb8"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
+      "sha256": "d79a8058bf0dd9d4cf7bf65f6ef2f47c3fd9452e641ebc746465d619aabb509c"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml",
+      "sha256": "d71ec30051dffe6e260f2787d87f22fa12c5ed4afe3e57c022dc9722efbab605"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.sensors@2.1-multihal.xml",
+      "sha256": "eef321f4878b942bad58b714e5ccaf9c2f82b6986afc60828b07a9e8800457b6"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml",
+      "sha256": "963119de0310765a376a61ec01854f70c6daa91bff75f0d6eaedc6e4b7f2a8b3"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.usb@1.2-service.xml",
+      "sha256": "7f0bd8f15ad0f216869ae1de9c86893c67cd2ebbb6f8392bf0619afd755c5755"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml",
+      "sha256": "186b494f85edf7f63d5d73292579cab7422226fb6fcc6132569958661d568623"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml",
+      "sha256": "757d0e5674284d49558da14f1c6832cc4f9959ab9cdb0bdd4980dc621ca6b3de"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
+      "sha256": "35681b40ec1804b9ec4c30e46f5e775abf7c241710c4d350345f28065f2ada5e"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/c2_manifest_vendor.xml",
+      "sha256": "f91b889f1dee3d7740862fae4632df0e9e553fea8ba11b23d6ae86f97e088f29"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml",
+      "sha256": "298cda5023fc89537f0535743badd03f96cf7e3685465cf549ab052372e66421"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml",
+      "sha256": "0ef073491b14699e5317caa201856b7d2d51dcc6edf8da358e01356cd5e6b557"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/manifest_non_qmaa.xml",
+      "sha256": "9b32ece75b2c5f013f11e7a86c5ce7afa374e9427a7b1c098d0fdad558134aef"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml",
+      "sha256": "28823ce9ca9c9e0bffd3ed6e03a1c48afc469399cb5c5bea83d30705190cce81"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/oplus_wifi_hostapd_device_without_wigig.xml",
+      "sha256": "7fcd24b897b2ea8c2fcd400a5aee6e60a214eadbdbe0218411fc58bf77ae81dc"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/power.xml",
+      "sha256": "541769636e0fe848700a472da66eddaffdfd00de06aab236827edbb334ca8bc3"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.oplus.hardware.wifi.supplicant.xml",
+      "sha256": "7173dd169105d820ffcc179342f53fd3b3aaf1d971d1242b37c2a2a5e22ad36d"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml",
+      "sha256": "e83f49d490b33fe0a47114f5b9fcf651f5b7844a1aa2ea6b26e47cda59fbd85c"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml",
+      "sha256": "e62fe887046fde1a29dd71e22ebe94fc2144532721e3eab2b68934064052f224"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml",
+      "sha256": "9ceb167d036b34b4f69ec5975c35b7447955d8277cfab2f459abc631ea9615b4"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml",
+      "sha256": "5b37e9ea2d2d2bf291f32cfdcae167d7878b9d7fe3575f3810874b63530dfbf7"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.lights.service.xml",
+      "sha256": "1cc7b95ba74be790902e3a7191988462fcb386415438f15005eb168e764fd605"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml",
+      "sha256": "5d9af3ac5160f6d692aac89864c8a71fa6f532424dd1a05e84ea4d6c699f152d"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml",
+      "sha256": "334f35898177c8c9d59d057593f76cb2b4cc89abaace73786ccc27b70bd22559"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml",
+      "sha256": "ca5f06b599daaa1de32a786b5576ac3b68c49023e96fe3e86995b6320a3e8050"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml",
+      "sha256": "b7937dc5857a82bb4c421f1ad79ade1c30e2001175babd73ab3c3ac6f6de411f"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.qxr-service.xml",
+      "sha256": "739bff08ee8e85b80b5757ece9007ad2c5a8ea478bb3af7abaa71218090adeaa"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml",
+      "sha256": "af8748fd50f719c9d22e0223e0f898d1c8b78f0b859b8b17b01e2fa1c56a4246"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml",
+      "sha256": "f57b12f5747dc5ba00186e1254dabebd071561c72ce3ae866cf8f9ce0ef901e0"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml",
+      "sha256": "ba06b2192b9c2b28a7f12e1caf41ba48beb6be2e5e6c8edfbe54101351ec4e86"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.vpp@2.0-service.xml",
+      "sha256": "85b5c697c37378e74660f35d308e816c33fb860db7624378250ade7811026d75"
+    },
+    {
+      "path": "vendor/etc/vintf/manifest/vendor.qti.hardware.wifi.wificfr@1.0-service.xml",
+      "sha256": "d55d9f6c05cb46981c177d5512079d10aaf42f6c114a40bef7ff5dffd0c2e213"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/android.hardware.power.stats-service.oplus.xml",
+      "sha256": "a7cb65b5c531eab270bf4c896e562fd5833b7ac0ce0e0fc68d7981b2a7c653c2"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/android.hardware.power.stats.IPowerStats.xml",
+      "sha256": "211bf36b29741676d8d7f8640299bd7646ed9109ea0a126005ccf907d4da502e"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/device_manifest_communication_center_aidl.xml",
+      "sha256": "a8db1fb4a299df316f069cc023b694676beac50e54a881fda8738c1739966e6a"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/device_manifest_subsys.xml",
+      "sha256": "d8e05f9b701dee30b3e2d94d4fb044552f521224c57e7e26cd3644a5fb6cd4dc"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
+      "sha256": "2bf94c055e4f9049886b2a2675697b992ad75274074fb8c60f2a9d4b283f2cdb"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_dax_dolby_v3_6.xml",
+      "sha256": "b13a474075d308321de66f59855f79afaa0c9a86bf173ec44bb1b9107cb2857d"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_engineer_aidl.xml",
+      "sha256": "d711eb02c28c4c721266f69701dfe8bf4f33d1d5e13cd8d55ed98cd198eda150"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_misc_aidl.xml",
+      "sha256": "2863c4ff0605bce2ef03571554fece7ac81bdb55a5e23347fe6d215cc6d89ec6"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_nfc_sn100t.xml",
+      "sha256": "fee506f782b7c66519459fc359c8285cd3c8a85a1e36ecfd9caf77da4862069a"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplusSensor_aidl.xml",
+      "sha256": "d636e97084fac450b2b537ac3d4b803b9746a06b31bd8db2cd5fe65308397fbb"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml",
+      "sha256": "a5074c56b0e5d286daa21f207cd2f2bca4ca7397e021dc09e2c34c679e4f83c8"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml",
+      "sha256": "bb1a634e58ff99fb8820de772099bc6de882faa4f1dbd4b6d21df76d2022a390"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml",
+      "sha256": "042e6967d46a72617f3e921ba76cb34de7c120003c74e69b68335d977b5eda59"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_cryptoeng.xml",
+      "sha256": "876d38b5e7c787945223fca17cf8d6ab912e863d927c796ccabb56f0f4ba7936"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_cwb.xml",
+      "sha256": "2e332ba031718a261dc4b717c450715c82af3c870d39d5d978bcd95901342f69"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature.xml",
+      "sha256": "41a80bac8d791b9e282f465a9af3bd95440df4b522fd6058644391fd0ba1a384"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_face.xml",
+      "sha256": "27d15c5e7699b2b18607ce6b5327a5caf916535036cee0764bc02d6a42ac576e"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_felica.xml",
+      "sha256": "697c4a0892ae044a2e41179c79fd9101245c2b8b8eef2fe4c25a3c72deac7b47"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_fido.xml",
+      "sha256": "30069809305151b3c6ccb574a58d5dc0bf3966d431c296835c7d28392bf81c4a"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl.xml",
+      "sha256": "1a7aacb70a0e5cc6dddffbccbf3f8137b0357737424c057ac70ba95b7fd2c485"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_gameopt.xml",
+      "sha256": "31bc35ab5f62eb6d7b7990fea78b962ae37a1cec1a09e9395f79c2d8eaa3e605"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_ifaa.xml",
+      "sha256": "fd95bdbd73c8ca63a2ad49d9f455142946550729487fe1f491302674d7f2ff00"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_mmdisplayfeature.xml",
+      "sha256": "3f66c8e723ca43b8a22f3697ef94b5d1268d2b8da78b2f85dd99298eb0422af5"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_nfcExtns.xml",
+      "sha256": "616d4747f9f8bdeadcc80df2eaabcf656518e4c10b2c4f84b70b2639c15d80a7"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_nfc_aidl.xml",
+      "sha256": "29cb7951a231e6518a09a4dd815a85ce54d3833dd013281ef02e3aa949a6f434"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml",
+      "sha256": "c97d7755e91a959c618b541c85fc59db87a29a51d859c147a3dcc01cd64c63e6"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml",
+      "sha256": "c4149e857061e3094bd9b2947b83d8b016181095bebfd04ffebd57ba64fe810e"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_virtualdevice_audio.xml",
+      "sha256": "aa3b8ec7626cfe2f85fb2a46883c6518f7080a1a075d18228ed9b5aa3feefba3"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_oplus_virtualdevice_camera.xml",
+      "sha256": "5236c091925db7dfa19fa6639e09e806b703c72cd662ca0f57a829b4b79f0ee7"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_performance_aidl.xml",
+      "sha256": "191e8d0ea41a9234f2b2513fb4a15e86d2e1fce3e64bc5b502589be7486d9ec2"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_powermonitor_aidl.xml",
+      "sha256": "80ffc78074bca14418a9b776a4a9850f1367d759566ccf25867b95d09d210f68"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_qti_eid_hidl.xml",
+      "sha256": "35705f2198dc3f9190e996b9bd7a2fd4036405fdbfeaf8faf37bcef87bad1e6a"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_rpmh_aidl.xml",
+      "sha256": "f86128f8c22361f249b91b7fe1660707034934b9fab31ae43525211e29c1726c"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_telephony_nfc.xml",
+      "sha256": "ba320fadb5e6e8d61239ad92f16dc962b1f2f9642d6c8e6fac6ab491d46b6869"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_touch_aidl.xml",
+      "sha256": "126b45cba5cbbb0a247025dfa270dc0d4591b836f49fb0666407943d84eb3a5e"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_transfer.xml",
+      "sha256": "7187edcfad46673ee0ef0017538f2262a7d508a9aa884fe29a1569855090f87e"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/manifest_transmessage.xml",
+      "sha256": "a003c9dd02b8d202c7b04862e976be2bbebe0d9665825a140da44c700df0c6b5"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/network_manifest.xml",
+      "sha256": "a4b93f29412f8c5ff0616a6f9816b9b823a1d2dd5a2a7eb2e4a357ee24c87686"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/oplus_aidl_wifi_service_device_manifest.xml",
+      "sha256": "986f674534f0705a755d0e84048dcad71430428842587311ca0aa838b9b9ee70"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/ormsHalService-default.xml",
+      "sha256": "51672e9c55e39b7aa316129ba080e706c41cb2a64670f69169227437cbe87d5f"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/vendor.oplus.hardware.olc2_aidl.xml",
+      "sha256": "ced76d3fa75a1ac50b8192ae64116c8a27262adc6b8415515f1e6437edb18443"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/vendor.oplus.hardware.urcc-service.xml",
+      "sha256": "48f86f217c856b9bba50c1267a37622f5f6a9bf04300e15dd58a42163e399ce6"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/vendor.pixelworks.hardware.display@1.2.xml",
+      "sha256": "42f319d1e90212630ec52ac730b9326532b3baae6156fb85c4b4af8940cfb7cd"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml",
+      "sha256": "a873de02c4625ec9133cad94679518836961fe0e3247071be165c03f7a4067f7"
+    },
+    {
+      "path": "odm/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml",
+      "sha256": "ba06b2192b9c2b28a7f12e1caf41ba48beb6be2e5e6c8edfbe54101351ec4e86"
+    }
+  ],
+  "no_android_hal_overrides": true,
+  "no_wildcard_instances": true
+}
