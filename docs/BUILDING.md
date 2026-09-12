@@ -84,7 +84,28 @@ The checked configuration keeps ADB authentication enabled and sets
 `ro.debuggable=1` for the initial userdebug product. Use your own key and review
 the debug configuration before preparing a release.
 
-## 4. Build
+## 4. Check host-tool compatibility
+
+The inspected repo revision `d27d6829a84f488b7253ea693dcc429076c33914`
+can abort while generating Lineage's build-manifest XML inside the read-only
+build sandbox: an optional Git-config cache write fails, then its cleanup also
+fails. This does not require making the source tree or user directory writable.
+
+If using that affected implementation, apply the included cache-handling fix
+from the Android source root:
+
+```bash
+git -C .repo/repo apply --check ../../device/realme/RE5465/patches/repo-readonly-git-config-cache.patch
+git -C .repo/repo apply ../../device/realme/RE5465/patches/repo-readonly-git-config-cache.patch
+```
+
+The patch treats cleanup of an unavailable optional cache as best-effort and
+preserves reads of the real Git configuration. Fault-injection checks passed,
+and the actual sandboxed build generated a valid 1164-project manifest afterward.
+If the patch does not apply, inspect the repo version for an equivalent upstream
+fix instead of forcing the patch.
+
+## 5. Build
 
 ```bash
 source build/envsetup.sh
@@ -99,7 +120,7 @@ even though recovery is the first build target.
 `extract-files.py` is reserved for the future curated per-file vendor list.
 It does not currently replace the prebuilt staging procedure.
 
-## 5. Inspect before any device testing
+## 6. Inspect before any device testing
 
 Use a fresh output directory when unpacking:
 

@@ -3,3 +3,5 @@
 *.rc text eol=lf
 *.py text eol=lf
 modules/* text eol=lf
+# Unified diffs use a required space for an empty context line.
+*.patch whitespace=-blank-at-eol

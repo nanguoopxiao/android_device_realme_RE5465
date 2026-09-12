@@ -1,0 +1,30 @@
+diff --git a/git_config.py b/git_config.py
+index 84d347b..9238087 100644
+--- a/git_config.py
++++ b/git_config.py
+@@ -391,7 +391,11 @@ class GitConfig:
+                 with open(self._json) as fd:
+                     return json.load(fd)
+         except (OSError, ValueError):
+-            platform_utils.remove(self._json, missing_ok=True)
++            try:
++                platform_utils.remove(self._json, missing_ok=True)
++            except OSError:
++                # Cache cleanup is optional on a read-only build filesystem.
++                pass
+             return None
+ 
+     def _SaveJson(self, cache):
+@@ -399,7 +403,11 @@ class GitConfig:
+             with open(self._json, "w") as fd:
+                 json.dump(cache, fd, indent=2)
+         except (OSError, TypeError):
+-            platform_utils.remove(self._json, missing_ok=True)
++            try:
++                platform_utils.remove(self._json, missing_ok=True)
++            except OSError:
++                # Keep config reads usable when the optional cache is read-only.
++                pass
+ 
+     def _ReadGit(self):
+         """
