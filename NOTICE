@@ -1,0 +1,14 @@
+RE5465 / RMX3551 Android device source bring-up
+
+Authored device configuration, tools and documentation: Apache License 2.0.
+See LICENSE and SPDX headers.
+
+Hardware observations and component hashes identify the inspected baseline.
+The repository does not distribute firmware images, kernel binaries, kernel
+modules, personal device dumps or development-machine ADB authorization keys.
+Supplying a file locally does not change that file's original license.
+
+OEM kernel/DTS repositories and LineageOS build/recovery projects are referenced
+in docs/PROVENANCE.md. Their source code retains its respective upstream license.
+This is an unofficial development project, not an official realme or LineageOS
+release or endorsement.

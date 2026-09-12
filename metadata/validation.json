@@ -1,0 +1,122 @@
+{
+  "date": "2026-09-12",
+  "product": "lineage_RE5465-bp4a-userdebug",
+  "source_branch": "lineage-23.2",
+  "image_bytes": 104857600,
+  "historical_development_image_sha256": "a5926837703e194539277a0b524dd09e0a264ed5bf1f7e3bc1a0120f0ca5a5ea",
+  "checks": [
+    {
+      "name": "dedicated_recovery_header",
+      "passed": true
+    },
+    {
+      "name": "physical_partition_size",
+      "passed": true
+    },
+    {
+      "name": "complete_ramdisk_payload",
+      "passed": true
+    },
+    {
+      "name": "info_image",
+      "passed": true
+    },
+    {
+      "name": "verify_image",
+      "passed": true
+    },
+    {
+      "name": "authenticated_debug_adb",
+      "passed": true
+    },
+    {
+      "name": "adb_key_resolves_inside_recovery",
+      "passed": true
+    },
+    {
+      "name": "adb_public_key_matches",
+      "passed": true
+    },
+    {
+      "name": "executable:init",
+      "passed": true
+    },
+    {
+      "name": "executable:system/bin/recovery",
+      "passed": true
+    },
+    {
+      "name": "executable:system/bin/adbd",
+      "passed": true
+    },
+    {
+      "name": "executable:system/bin/fastbootd",
+      "passed": true
+    },
+    {
+      "name": "executable:system/bin/getevent",
+      "passed": true
+    },
+    {
+      "name": "executable:system/bin/sh",
+      "passed": true
+    },
+    {
+      "name": "executable:system/bin/dmesg",
+      "passed": true
+    },
+    {
+      "name": "fastboot_recovery_hal_packaged",
+      "passed": true
+    },
+    {
+      "name": "usb_adb_and_fastboot_triggers",
+      "passed": true
+    },
+    {
+      "name": "recovery_fstab_matches_device",
+      "passed": true
+    },
+    {
+      "name": "selinux_file:sepolicy",
+      "passed": true
+    },
+    {
+      "name": "selinux_file:plat_file_contexts",
+      "passed": true
+    },
+    {
+      "name": "selinux_file:plat_property_contexts",
+      "passed": true
+    },
+    {
+      "name": "no_unexpected_permissive_selinux_domains",
+      "passed": true
+    },
+    {
+      "name": "elf_needed_names_present",
+      "passed": true
+    },
+    {
+      "name": "preserved_hardware_inputs_match",
+      "passed": true
+    },
+    {
+      "name": "vendor_recovery_module_list_resolves",
+      "passed": true
+    },
+    {
+      "name": "known_touch_modules_retained",
+      "passed": true
+    }
+  ],
+  "all_static_checks_passed": true,
+  "permissive_debug_domains": [
+    "backuptool",
+    "recovery",
+    "su"
+  ],
+  "device_boot_tested": false,
+  "complete_rom_build_tested": false,
+  "scope": "Sanitized static validation summary; raw logs and ADB key fingerprints are not published."
+}

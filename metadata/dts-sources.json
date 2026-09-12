@@ -1,0 +1,1061 @@
+{
+  "files": [
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/Makefile",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/Makefile",
+      "git_blob": "d3895f90b0df7b547a177559f38bd6dad390e51b",
+      "sha256": "7d799ad3fab32bb267a6bae1032a867d57d3175dd612bb8aa6ad0d530d72fcfc"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/jennie-21605-cape-overlay.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/jennie-21605-cape-overlay.dts",
+      "git_blob": "36da1e4eb0d3369817f7f67b1c27377555c7b24e",
+      "sha256": "792fe194e67b32956d5ffc8fdb65327dfa34b3fb500ee448c9be88d33a0b72a0"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/jennie_21605_overlay_common.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/jennie_21605_overlay_common.dtsi",
+      "git_blob": "6c59ac8825f5bc0304f792bd1172b712cf7d40ad",
+      "sha256": "291a5d4cc741fe0f777e2bf741b2e60cc6d4c2eac75a307903bce2ec8077f255"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/oplus_chg/oplus-chg-21605.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/oplus_chg/oplus-chg-21605.dtsi",
+      "git_blob": "a54dce5248634d90b08526e3d599feba830b8750",
+      "sha256": "6ef585044317021876d464ecb2727608d9375e82bddff03990db51f1b337e74f"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/oplus_chg/oplus_chg_21605.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/oplus_chg/oplus_chg_21605.h",
+      "git_blob": "a5338338ab1c09d28950eba4b6757f964110b650",
+      "sha256": "073159f21341fff0b42cc4e6600f9c09245426813cb16b59abea2ee88e416328"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/oplus/jennie-21605-audio-cape-overlay.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/oplus/jennie-21605-audio-cape-overlay.dts",
+      "git_blob": "5b94a90a578680e2b0bccd50e15f5b1334c3ac6d",
+      "sha256": "8b9c15681961b4c7356954f1ce8be7fdc0051387221b7cc8ad1418b0efdf05b4"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/oplus/jennie-21605-audio-waipio-overlay.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/oplus/jennie-21605-audio-waipio-overlay.dts",
+      "git_blob": "79b17570419100bf7ad77c213bc748bd35c8ef1c",
+      "sha256": "454259e7b2d5cd49d3e19ab1f744b1683f322a5a83d059c4faf0108ec370c4ce"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/oplus/jennie_21605_audio_overlay_common.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/oplus/jennie_21605_audio_overlay_common.dtsi",
+      "git_blob": "261873ff29e30216ff64a973698a0672cbd98831",
+      "sha256": "01308c40592e05ccfdd1f6b977e2c21fd85a679131daa5438b77c5594fa6ae08"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/camera-devicetree/oplus/jennie_21605-camera-cape-overlay.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/camera-devicetree/oplus/jennie_21605-camera-cape-overlay.dts",
+      "git_blob": "658b3bc4a4e1d15fd8dcccfff6b1b6d56073b3b3",
+      "sha256": "7f1e0fbf0633037fcea8645014585f82445afd1007223928496698251c3724fe"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/camera-devicetree/oplus/jennie_21605-camera-waipio-overlay.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/camera-devicetree/oplus/jennie_21605-camera-waipio-overlay.dts",
+      "git_blob": "b51d9be8f2959df7464ea8cf4b37c105eb685eaa",
+      "sha256": "ebacd0482ce048957df26bc68ed540af9e95b0696ac44d011c80586db837ade6"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/camera-devicetree/oplus/jennie_21605_camera_overlay_common.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/camera-devicetree/oplus/jennie_21605_camera_overlay_common.dtsi",
+      "git_blob": "67388ef827ea03446e539035f1c02d254b68e197",
+      "sha256": "41362474ba70a07345920a1732baf0c518a5ed566a39643bc74960cc356a1a8a"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus21605-nt37701a-1080-2412-dsc-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus21605-nt37701a-1080-2412-dsc-cmd.dtsi",
+      "git_blob": "63709eb656a1ed1f4db5bb01f66293ddea0f1a13",
+      "sha256": "fefa85c550e1b2cc55dc3f00013d6199bc9283c2e175888290468c6c541b8c5a"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/pxlw/dsi-panel-oplus21605-nt37701a-1080-2412-dsc-cmd-2nd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/pxlw/dsi-panel-oplus21605-nt37701a-1080-2412-dsc-cmd-2nd.dtsi",
+      "git_blob": "caf9963c90f1f23c8f8832a9f3217544898f1095",
+      "sha256": "75b644653e12f648390c6ee624e8f828c6000a3211fa376d51fd8c3fee1afbd5"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/oplus/jennie-21605-display-waipio-overlay.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/oplus/jennie-21605-display-waipio-overlay.dts",
+      "git_blob": "aedbe89d4a2cfc3b39cae38ab7dd0067ed65c55f",
+      "sha256": "25981eb92b6fb3e92560bb4f96d6c9830096186b09939d70be6ea01160238f52"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/oplus/jennie_21605_display_overlay_common.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/oplus/jennie_21605_display_overlay_common.dtsi",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape.dts",
+      "git_blob": "1ddda6df8d1f8898f1158df4f38d56e803837b2e",
+      "sha256": "23b482eddcf7ba2da513413cb2a616dddb7fc8455d54a452240c43126b236f0c"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-v2.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-v2.dts",
+      "git_blob": "17ebe25d89bd87275174e894a77683a2dca3e36e",
+      "sha256": "d941f8bc9f555543d7b143430a3778469c25cbe57cac93079bf7c4dd7c28609e"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/Makefile",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/Makefile",
+      "git_blob": "2a03cf65300ef48104f3a87d6e7235f0b1a6c180",
+      "sha256": "b142574dfe498de237a03ae076265be24627c6b8d3dbdf2cc72f7ed744593a90"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/cape.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/cape.dts",
+      "git_blob": "46c80a88f4cc8944572cfd791e0177dcecec20f4",
+      "sha256": "ea84ff305347151348f5f97e1117dec5d5c7b553dfbe92920d89e7bc4b22fa10"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/cape-v2.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/cape-v2.dts",
+      "git_blob": "c2bb68dc472427e18f06d7d4b1b8eba24dc875c6",
+      "sha256": "f205700a66e539b22353793613a77b62f815e64561437b8dd6e6fb556843224e"
+    },
+    {
+      "kind": "kernel",
+      "path": "Makefile",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/Makefile",
+      "git_blob": "58480196915277cb1c735c900bacaf174b533c26",
+      "sha256": "20dba274a77002d41d1da8b0f3c3d61a21b0e9799184f992799a46b1d96a2c43"
+    },
+    {
+      "kind": "kernel",
+      "path": "build.config.msm.waipio",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/build.config.msm.waipio",
+      "git_blob": "6c12a46eb1a36e2dc313e74b3fd19869fc3bf835",
+      "sha256": "d43d92e8277a772ac20db5a87b51e5c1dd4ab09334740b652e752ab3ff20fcee"
+    },
+    {
+      "kind": "kernel",
+      "path": "arch/arm64/configs/gki_defconfig",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/arch/arm64/configs/gki_defconfig",
+      "git_blob": "7d7c4086de6c4954c95fbba17de04382ca3d0af3",
+      "sha256": "188fefa1e9bb2e3dfcc56c8ffb984115fa3b66a25f25093e553586f1a15820f4"
+    },
+    {
+      "kind": "kernel",
+      "path": "arch/arm64/configs/vendor/waipio_GKI.config",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/arch/arm64/configs/vendor/waipio_GKI.config",
+      "git_blob": "b3e90eaa693063a76222941948a1cd03c613f3e2",
+      "sha256": "f0f7ab9bce8da99803fcea9ca0db27a8ddf6ad5ec4346a205443d77de6f26cdc"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/oplus/hw-id.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/oplus/hw-id.h",
+      "git_blob": "9482cd4462b6e2ebe3afd9a73f363bb7a9f0086e",
+      "sha256": "2868e2f8822c376e2b87c6695e0aed3e5899a7f82310d0e12a4d57d414603ed2"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-mtp-pm8010-overlay.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-mtp-pm8010-overlay.dts",
+      "git_blob": "d361dd6129d5fc8d497ebde9f24ab98a9aa3f31d",
+      "sha256": "52bc16ce81308bac3ffb9e12225f7fe62c67527a755c9143fc8b305fe493a10d"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/cape_overlay_common.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/cape_overlay_common.dtsi",
+      "git_blob": "5dfa5eef72032302132d125a548633abd9fa2fd8",
+      "sha256": "5037ea78a615eed8ee385102469ac03484dc036feacc3af2727b167a91e7de97"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/nfc/jennie-nfc-sn100t.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/nfc/jennie-nfc-sn100t.dtsi",
+      "git_blob": "4e16c7ff9229e70ef5e1c1f792e0b9107f9cd452",
+      "sha256": "e27ef83c44ee8bb29a8414f2b7558e35f7d703ee52d37ed961130c94161c5626"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/tp/oplus_tp_overlay_common.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/tp/oplus_tp_overlay_common.dtsi",
+      "git_blob": "d945b4849f50c22276289b928334104b62a321e3",
+      "sha256": "c03d48283dbc0a7f6d261b14556338a38a50e58e00920f95a6b859f635006154"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/oplus_uff/oplus_uff_sm8475.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/oplus_uff/oplus_uff_sm8475.dtsi",
+      "git_blob": "1cfc6d468586c22dc502b2cc993533dad8af7cae",
+      "sha256": "64a5f1578423a03099dda52dcb8125ada8e8b2dbd4ebed8f3aae3bbf4ed69798"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/sensor/jennie-oplus-sensor.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/sensor/jennie-oplus-sensor.dtsi",
+      "git_blob": "6acc025ad674a93cc136b671b9db015ce749140a",
+      "sha256": "db3cf63e7d5be76b39cfc0269c4893b3f52979563d678e6d28cf3c05630af5d5"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/oplus/shouder/jennie_shouder_chipsea_f71.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/oplus/shouder/jennie_shouder_chipsea_f71.dtsi",
+      "git_blob": "c615a99902454fb9357af04c0aa0d8c7eea83e30",
+      "sha256": "056b59a8f7f0049209dfd488072fde1869d872ddf7f09e8daeddc63ff3371ee2"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/regulator/qcom,rpmh-regulator-levels.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/regulator/qcom,rpmh-regulator-levels.h",
+      "git_blob": "1d6601b6023afe92809cc4badd28a2968330ffeb",
+      "sha256": "d999f3378d9c3d62b92da424fadd9582a3673443fd3cc9975b7e3b9db01d5f53"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/cape-audio-mtp.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/cape-audio-mtp.dts",
+      "git_blob": "7b68c25363252024401f259ae2bf50e3114f544e",
+      "sha256": "feb0af02d2ac52ae00dcd6021173827bf94894580eed2f3d25ce484f933de72b"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/oplus/cape_audio_overlay_common.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/oplus/cape_audio_overlay_common.dtsi",
+      "git_blob": "bf3b4b4a0225514fc530703f6a54ad9358ed9135",
+      "sha256": "8bf7bdbd0496859d47c46077e773459bf89f0d832ec549771b226b2a66719208"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/waipio-audio-mtp.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/waipio-audio-mtp.dts",
+      "git_blob": "0977d51103fe4e9471fd76b6fd3a185cae710ac5",
+      "sha256": "f585f4e27f3bab48d11664ceb26e552e4de6dce5c040f936f76595199df2cc60"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/oplus/waipio_audio_overlay_common.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/oplus/waipio_audio_overlay_common.dtsi",
+      "git_blob": "4f713ad8a6a2b3fcf99f1f0c38e4750de47e2ee0",
+      "sha256": "d9d6bc998d159b9afe3141134159ebb918f0f01ea3eb6226e90d355cb9ca0be5"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/clock/qcom,gcc-waipio.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/clock/qcom,gcc-waipio.h",
+      "git_blob": "02a5b36d73f119887ac5296c5be6a09a4adee955",
+      "sha256": "b63d6eb02115d3200311d885838fad50189c27d8d706197275945100ef566ffa"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/clock/qcom,camcc-waipio.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/clock/qcom,camcc-waipio.h",
+      "git_blob": "d0832c0672c91ad015000d08686be8418b97af63",
+      "sha256": "9cd86a8b276800e950de88dd2c9280aa3a332add967a5eb51968542c572d4883"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/interconnect/qcom,waipio.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/interconnect/qcom,waipio.h",
+      "git_blob": "766eed27dfc1de0e4d5ca9d9b28f04e53f0b279b",
+      "sha256": "e6500075a7d908de457b35aff0e69dad2ced15191fe079d7db6987a4fc1b0417"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/interrupt-controller/arm-gic.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/interrupt-controller/arm-gic.h",
+      "git_blob": "35b6f69b7db6a0d67fcae08be908e7b2d94a5ab7",
+      "sha256": "a0e0b6ab839734b481d8842769f45c88cd6912f8f97ed0b32a9a45c5d9d65fda"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/camera-devicetree/oplus/waipio_camera_overlay_common.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/camera-devicetree/oplus/waipio_camera_overlay_common.dtsi",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/cape-sde-display-mtp-overlay.dts",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/cape-sde-display-mtp-overlay.dts",
+      "git_blob": "d303a69878f46c6d49e0fad454e39cf9aed9c010",
+      "sha256": "e77412b991247624912ea4a8a1e987b02569a10c05c9045deb7fbb7a9deb653b"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/pxlw/pxlw-iris7.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/pxlw/pxlw-iris7.dtsi",
+      "git_blob": "f64dfcaae70c81cd6c9bc591816d32062c01b23f",
+      "sha256": "91ac16e16b58334541f0e8f9d9f50144b3fc52a8237849964c985f75055eb882"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/pxlw/dsi-panel-pxlw.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/pxlw/dsi-panel-pxlw.dtsi",
+      "git_blob": "e4cf5f57f723bb1e1b9b82756b387773b1090345",
+      "sha256": "c54cfc0313d827043bd50682b83b1aa53f341b68c1896cac2e7a328fe76d6f31"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape.dtsi",
+      "git_blob": "81be8b03f3e1f892e38d4503446c6e253e619514",
+      "sha256": "40bfb2388ded2bdc390932ae8ed9963e02fae5340999b9b43778249d9792353f"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-v2.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-v2.dtsi",
+      "git_blob": "77a8c1ff96beb217e4a70cf6a399216690da4c61",
+      "sha256": "a0b904b3a567cd2b41655877dd0fd36ddbe8b813cb819633632c64e737054b47"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-mtp.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-mtp.dtsi",
+      "git_blob": "98a444503fbaedbfb98a48e5802560fc4fa6a26f",
+      "sha256": "8a44bf4d91e36f6efe0c7760e972ee616378bae1a70c7895e239ce69d0fda499"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/waipio-pm8010-spmi.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/waipio-pm8010-spmi.dtsi",
+      "git_blob": "b147b7815318a4f3262c4960fd9547f7faca9259",
+      "sha256": "8351533be349259fb7b0ed75bf745c61abbec205bf300cd5fafb7ad541933379"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/cape-audio-mtp.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/cape-audio-mtp.dtsi",
+      "git_blob": "072ec21e1936f5e56cef534fff3981bfe53d2a59",
+      "sha256": "d5d79c5d0199ce74838dba6853f3964f37cafc9bd0d82dee18cac1526bbfa61b"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/oplus/oplus-audio-extend.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/oplus/oplus-audio-extend.dtsi",
+      "git_blob": "62242e6ef8bf49cbfe8ea291a3f5330c38f9e93b",
+      "sha256": "3e9c1a79fc143d99e0cd98a4fcaf3c016a7ee53d629fbb0bdb0196495487ac13"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/waipio-audio-mtp.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/waipio-audio-mtp.dtsi",
+      "git_blob": "dae8754e4e805250fef0366cce48464810641de9",
+      "sha256": "b687f02c9868ef210defb21a90cf10429b96035c3153a42051550d9fee2e9b8c"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/interrupt-controller/irq.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/interrupt-controller/irq.h",
+      "git_blob": "9e3d183e138191fe5227cb5ffc5ff52d81036b15",
+      "sha256": "392400a309a54ea5b1a2ac2e52773d3ab68e07323109b9aed88a69fedc74e082"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/cape-sde-display-mtp.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/cape-sde-display-mtp.dtsi",
+      "git_blob": "0f9eec221a464890ab115a923a50c9db761b7442",
+      "sha256": "49cdf5f9d922988092755dba4d0e5709601757cb2c75c49053e88bf5a5219c60"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/pxlw/pxlw-iris7-cfg-boe-nt37701b-dsc-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/pxlw/pxlw-iris7-cfg-boe-nt37701b-dsc-cmd.dtsi",
+      "git_blob": "825124f60275d9afcea98f74e046c2e88694d1dc",
+      "sha256": "64f822c287cc3d9901d5cc9717c206781a807ecb0520b3fe68cc3ae1c6ae2887"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/pxlw/pxlw-iris7-cfg-boe-nt37701a-1080-2412-dsc-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/pxlw/pxlw-iris7-cfg-boe-nt37701a-1080-2412-dsc-cmd.dtsi",
+      "git_blob": "b4c544eca733532d2bf7c5d6beb43dfbe6c5fea7",
+      "sha256": "133e65a7e28825f70ed34276fa3548cf0199cc9902c0763d28be349f43ba233d"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/pxlw/dsi-panel-oplus21606-nt37701b-1080-2412-dsc-cmd-udc-2nd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/pxlw/dsi-panel-oplus21606-nt37701b-1080-2412-dsc-cmd-udc-2nd.dtsi",
+      "git_blob": "86a0b14861d723bab330669227488a17c6cc97a2",
+      "sha256": "a1d0137d3f0654dae220768ad8bce5884d71a37a249aea3e59378a350ddb4cfd"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/clock/qcom,aop-qmp.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/clock/qcom,aop-qmp.h",
+      "git_blob": "ebd6626e8ec4d8eecb34ded61353a15d8695e4b3",
+      "sha256": "23028e792c9dbe8f7060b4eac86784043727af6f1189355be9dcb1375c7a9488"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/interconnect/qcom,icc.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/interconnect/qcom,icc.h",
+      "git_blob": "710e4839b992b510168ac3d60e99b65a888bba7b",
+      "sha256": "be95638b1305f99e014fee1b33339525cb196799a3dca957448e28975950746b"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/soc/qcom,rpmh-rsc.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/soc/qcom,rpmh-rsc.h",
+      "git_blob": "221049d6edac303ca35bf5f49e4e76856ebf4279",
+      "sha256": "6810c83419f95e8908c1de201ccd40022c9d149ab77f54e2bb12590585370b2d"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/spmi/spmi.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/spmi/spmi.h",
+      "git_blob": "ad4a43481de4f6a47cd3f622ffa1ab7e93d28dd3",
+      "sha256": "c2952b040e5c24726c423e52ba939d389141ff27eb2307fb3888657b455e2b9b"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/soc/qcom,ipcc.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/soc/qcom,ipcc.h",
+      "git_blob": "d1c51838f28f3cfb5f762acec5150bdbdf2c3fcd",
+      "sha256": "39965c68019053ae8074cc27f2135efdd59bb695463bebd7f2d223d163e46add"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/gpio/gpio.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/gpio/gpio.h",
+      "git_blob": "c029467e828b29f79dc4150792a4ed2fd87e00b2",
+      "sha256": "9459754421011352d52db59d3f5d51b8151043cae13bf430e177308ba89eb671"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-reserved-memory.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-reserved-memory.dtsi",
+      "git_blob": "29d256b84f3e1b49b9cd7bbe36831728c0e59830",
+      "sha256": "441c94c42d4b657432aa1a943236c19393f7180d95708f8f740756bdd9a43d98"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/waipio-clock.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/waipio-clock.dtsi",
+      "git_blob": "8310ceea62fa04689c368d97995711c99fb6afe7",
+      "sha256": "b3271a4cad56bd6c5693d104f18a498afce82e2195b91475edb064ac89db4d19"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-pinctrl.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-pinctrl.dtsi",
+      "git_blob": "c5fc2bc659c6bde4e33243c2b90c363bdfd2f579",
+      "sha256": "59178ef68b3b9cebae62bd61be0fdc731804876a6dba3bb47cda3680c1534998"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/waipio-qupv3.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/waipio-qupv3.dtsi",
+      "git_blob": "3901da3bca66e3bae0fb0af56ee8cd4f372d79fc",
+      "sha256": "90ae303e8b542eb15932a0a7241be1cb9e2d21c6834b31c0330f5ad9427b0cfb"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-regulators.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-regulators.dtsi",
+      "git_blob": "ca54d1b8b7b7b429133f7d0bb000a96f0e1f7cef",
+      "sha256": "d23348745eb080cc59b2f9983711dd4b49f90c0b1a80da51ef9de69aa30f6c53"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-coresight.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-coresight.dtsi",
+      "git_blob": "2de4521a0b7eca4bc396041d23f10ccf3806bc8f",
+      "sha256": "f0e0ae94cd0f6f405de7eefe73b9595f63e0a76a73009dd04d874cab62450794"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-debug.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-debug.dtsi",
+      "git_blob": "4df2863963cebf51d889a19d094bc3daa9f0cca7",
+      "sha256": "cd0fa7f6a0d1ea5a3ba527d64dd2434b440f845cea4ccf875cb0152d8411d776"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/msm-arm-smmu-waipio.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/msm-arm-smmu-waipio.dtsi",
+      "git_blob": "2980e589e0a90647ab945b2cc5b906a4ab51352a",
+      "sha256": "d07c11cd9fc9e9320be54489580266616fbcd843bbdd1ce0528a4380b1738cbf"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-dma-heaps.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-dma-heaps.dtsi",
+      "git_blob": "b2d22955f81b58999a3583569ba38ac7bafbb0da",
+      "sha256": "97dc1c2bda0b36376d7d0207caf512928e68118343e96f0e7aed3002b8a6a6fa"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-gpu.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-gpu.dtsi",
+      "git_blob": "bf1b66997bb638338841573a77819f50678b6b6e",
+      "sha256": "a9fd986def7aa6092c977a4ec674664b097e987a1ad2e84da2340ed920d7be96"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-thermal.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-thermal.dtsi",
+      "git_blob": "0c1f0c6109a52dd38cb7d56a7c28fe709f08ead5",
+      "sha256": "d547ce6904c2837bd5a9371a6206afec8d908fcdcb52917ea19baa026e7a82b9"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-usb.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-usb.dtsi",
+      "git_blob": "ab1fb99e1ded80c95b896bfc0b87e5374e4bfd73",
+      "sha256": "3f89c0843922efcfaf7a3f699e5e73281854fbc869eda91a68fe606a21653429"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-pcie.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-pcie.dtsi",
+      "git_blob": "bc1b9b5e56f7daf5e4fef0401534129d10981b6c",
+      "sha256": "c4a1b3b91152885114838be4eba334802eef5a83917f60d7b8babc05f37c1fb2"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/msm-rdbg.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/msm-rdbg.dtsi",
+      "git_blob": "bb2adf8d09917c097717f9ba58f76eaf83cc0e2e",
+      "sha256": "eeee8ce9bb912f8a4dea8b146b15d36bce82d6c9f191b20169f5357d8c728574"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/waipio-eva.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/waipio-eva.dtsi",
+      "git_blob": "c76f1f1dd91df255c0f11d05faaaaf6bd91684a1",
+      "sha256": "bcc5140dae42d6bd27563f182bb6c5cdbaa09f6fa0e5eb6df4151566b215f83c"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/ipcc-test.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/ipcc-test.dtsi",
+      "git_blob": "bd89d9e960ec90787c8be38e3b7924909a4fb390",
+      "sha256": "b417ee38a98327db76798d649b203bd9acadc83b1b9247ff76a9f8769af5cf34"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/input/input.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/input/input.h",
+      "git_blob": "bcf0ae100f21af8cfe0afc49d0a9107d4dfa62d7",
+      "sha256": "2f7ae2ec64f1b033e9c3d34d9128c0851f86cfffa010a890b46ac49aae4f17ea"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/cape-pmic-overlay.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/cape-pmic-overlay.dtsi",
+      "git_blob": "d0f0305ce5e796b5a67f0fac01aac75e6603c359",
+      "sha256": "6e96e0ec6140cac23d266adee1930b823f05958d7e571d3d090da8d7ef71e991"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/waipio-thermal-overlay.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/waipio-thermal-overlay.dtsi",
+      "git_blob": "8d1f3eb3c843b9e3824069a2bf429f60a371bf90",
+      "sha256": "b4966b9cf60e19abee6965177ab24634f53310242500df4f7ee0874bdafbe9c9"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/waipio-audio-overlay.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/waipio-audio-overlay.dtsi",
+      "git_blob": "22c73a8ec97ffd0078a82000bfa13208be989111",
+      "sha256": "e6cdc86d40783655a8382e56be24ffe4703637b1b2788b141cfb2502b54d829d"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/cape-sde-display.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/cape-sde-display.dtsi",
+      "git_blob": "66448136e4690279b6d79341c7831db5bb439bea",
+      "sha256": "15607c86f71b35b02cc6eb820140d91cab86062eccc3ec3de42343361bdf79b7"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/clock/qcom,dispcc-waipio.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/clock/qcom,dispcc-waipio.h",
+      "git_blob": "1516a65e8c87184394bf30d077e449c6273c9929",
+      "sha256": "f84e2f14a9e6568ab2244a5c28286cfb1c6393b9417cbf47c79ecf78f634cd5e"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/clock/qcom,gpucc-waipio.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/clock/qcom,gpucc-waipio.h",
+      "git_blob": "fd4e191335ad142022c26fa220f15a4123802387",
+      "sha256": "abbfdf4565c81ef542a2b944aefd2e1585f90f01a0ba25ee6aaef8e66839baa0"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/clock/qcom,rpmh.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/clock/qcom,rpmh.h",
+      "git_blob": "61522232b9e2bcce13254578918190293e9b42d1",
+      "sha256": "cb4540d7c76b46a64df5cb2ef2a83fc899faa7bbbef433bf1840cdf1b2ab3fb4"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/clock/qcom,videocc-waipio.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/clock/qcom,videocc-waipio.h",
+      "git_blob": "1da7802cb3c9b057679df65a9508562603a45d7b",
+      "sha256": "c01ec339c5b3640e4fa4e7673a5054c0c448547fcbe20952238eeaa933a82564"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/waipio-coresight.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/waipio-coresight.dtsi",
+      "git_blob": "8815f7ba953ba3383b8737a6f73d13bf923660a6",
+      "sha256": "2f11a543064547e4f24e10d9a2dad8fa50bffd5f72b225a3074eba7ed0145a5b"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/soc/qcom,dcc_v2.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/soc/qcom,dcc_v2.h",
+      "git_blob": "77769c8ef0bc44ce0702d31d45ecac9b3d218e8d",
+      "sha256": "d48a79057bf5b85506c2107d1c7d83ff44a7e08833fd893654ab07d79d9dad5c"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/arm/msm/qcom_dma_heap_dt_constants.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/arm/msm/qcom_dma_heap_dt_constants.h",
+      "git_blob": "eaa1e5dbaf2b95a5c69fe8a587e60676e1843805",
+      "sha256": "e0a7d69bdc6184e5a7038da3678ed9ea889a4c7fc980cbedead61a84de2586a6"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/thermal/thermal_qti.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/thermal/thermal_qti.h",
+      "git_blob": "8650a5e3a2ae777116f0f82d4ed47b73dab81bed",
+      "sha256": "1e2f546e166b3c0d894025dac4825eb71cdec3e694105d6d056cd0fe32ef1c05"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/waipio-thermal-modem.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/waipio-thermal-modem.dtsi",
+      "git_blob": "10968c7f370b6566141de2efb811375410874664",
+      "sha256": "11255f7aff951d85b7a6a8f1ee8f264233fc916d193791af700c7807d62774e3"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/phy/qcom,usb3-4nm-qmp-combo.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/phy/qcom,usb3-4nm-qmp-combo.h",
+      "git_blob": "3c0845bca9081f91b28888d80a4c25d0b6513d7a",
+      "sha256": "43e0c25b0ff18a0af4a1b7fa874e04b566d626aa028939d9bb25ca7cce28422f"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/input/linux-event-codes.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/input/linux-event-codes.h",
+      "git_blob": "693bbcd2670a41ce72418214217c613d8ad52037",
+      "sha256": "7a4b0eb4821228c164381b743ae67442fad85651359c2470eda69e5aedd398ad"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/pinctrl/qcom,pmic-gpio.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/pinctrl/qcom,pmic-gpio.h",
+      "git_blob": "950be952ad3ef1c6804d4e5f07b40e42dd809da9",
+      "sha256": "fbed1013d71075774a32ea3c048b1445de132a59da9e438dc0af5b3f61fe6d8f"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/iio/qcom,spmi-adc7-smb139x.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/iio/qcom,spmi-adc7-smb139x.h",
+      "git_blob": "80e73edba52573c51ce7578c5d324e2fefc88afd",
+      "sha256": "113548998aee99b21df554eb16f1c56d1bc4f8b56d2ce4036fa2aaf10a8c7bfb"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/pmk8350.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/pmk8350.dtsi",
+      "git_blob": "ecfcaa9635e94143f14976252ab1a6c9bb06f302",
+      "sha256": "0482b419bdfa654b06b2f535eaa353ee0c53bfddc5fe26665c9c5bfe3dbfbb76"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/pm8350.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/pm8350.dtsi",
+      "git_blob": "1b79409a0e744291b887595b1f14183a84207fa1",
+      "sha256": "ec2fbcc50c73aae894522316f63fd1059d540d9d165441a3e6eda785ad2ade58"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/pm8350c.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/pm8350c.dtsi",
+      "git_blob": "b08b7bb6e2fa297c1deafe170d35cca1ca2b6590",
+      "sha256": "d99a0614a1e9720744dcb59db6209505144d08bf3ca0e68bf7b13fb6ca8175ab"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/pm8350b.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/pm8350b.dtsi",
+      "git_blob": "8f1a4244e235e83020255b180ce87f920c8676fb",
+      "sha256": "418f78b2239fdb9c6ee3c0daf82e7c1e22000e1139634bdb108cd486c3b4ee6f"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/pmr735a.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/pmr735a.dtsi",
+      "git_blob": "2a72ec635db71cc1cf6ae80a23de682625d50868",
+      "sha256": "ce2a704ea309ab6462db91fdd6767a4c5f855692184160bfdfad5ca322d57e2a"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/pmr735b.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/pmr735b.dtsi",
+      "git_blob": "b1050bf06072ed274b1c834e26b856e5339db1fe",
+      "sha256": "5fd775e7132f3186312c5f052f226150b1c7315c21edbac8a33fb2d6a4dad838"
+    },
+    {
+      "kind": "vendor",
+      "path": "kernel_platform/qcom/proprietary/devicetree/qcom/pm8450.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/kernel_platform/qcom/proprietary/devicetree/qcom/pm8450.dtsi",
+      "git_blob": "bc28a9b66e03d0e1fe5be77c07f780ee258fe7c5",
+      "sha256": "d4366c84ea3ac60029caafca68da4c900c303178559ef7baaf9fd4faa37a3750"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/opensource/audio-kernel/include/bindings/qcom,audio-ext-clk.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/opensource/audio-kernel/include/bindings/qcom,audio-ext-clk.h",
+      "git_blob": "3fd67fa483ef5bf967f8341c4c2003d01216bb48",
+      "sha256": "57e1bdb8ff57d3a0099e3e3e9b8ebeb7aa53c00d43d34c3226d217bb3070c3c4"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/opensource/audio-kernel/include/bindings/qcom,lpass-cdc-clk-rsc.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/opensource/audio-kernel/include/bindings/qcom,lpass-cdc-clk-rsc.h",
+      "git_blob": "260c26ec6157210ee01eef09e6b640e96521cdff",
+      "sha256": "fd840453cf95e725cc130f59a9bc3cc1359cea1247f13d80fd0ab4a36dc28574"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/opensource/audio-kernel/include/bindings/audio-codec-port-types.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/opensource/audio-kernel/include/bindings/audio-codec-port-types.h",
+      "git_blob": "4e04ba8a8bab03bae9066aa1d9ecb6bbb387a57d",
+      "sha256": "26125feb5f7c39b3658ecca5ecfbc1ee168f94d05adf84ab6c152ef98d687c56"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/audio-devicetree/waipio-lpi.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/audio-devicetree/waipio-lpi.dtsi",
+      "git_blob": "e570a6e7c34ea089bfbdeb872f43266e020e9ebd",
+      "sha256": "bff58d85afef1e00900a299d117b8fede33cd16d896819bbc9bcfe5c6127d0d6"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/cape-sde-display-common.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/cape-sde-display-common.dtsi",
+      "git_blob": "a14ecbccff8848d8a6eb1218cd3a2a4e8b472574",
+      "sha256": "06a41e0cc8012751864dfdf9ca83b46272811b199c9dfdd691d1c038c51fc19e"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/linux/qcom_dma_heap_dt_constants.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/linux/qcom_dma_heap_dt_constants.h",
+      "git_blob": "c296c7107e7398724ce2ca242231388e9de7a54c",
+      "sha256": "541ac20a742ecfed2d2e00a586fd0dd5dc79d0859715fabd1acfa2ed49dccd68"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/thermal/thermal.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/thermal/thermal.h",
+      "git_blob": "bc7babb1a67cd4910f3bc9c54eefff2a574591b7",
+      "sha256": "d74d498871c3bf3d6aa985ad01c15dfa916614369dbcd832bdcb9d2d45b15e08"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/uapi/linux/input-event-codes.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/uapi/linux/input-event-codes.h",
+      "git_blob": "225ec87d4f2283c7e2aacba55fbf3d405753b570",
+      "sha256": "ff592911bc75c499bf994d3280f53d130133e5ac6c36566c7106e317172f9b3c"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/input/qcom,qpnp-power-on.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/input/qcom,qpnp-power-on.h",
+      "git_blob": "d74cf0d58411a15b3281f10e1787faf17a9b44d2",
+      "sha256": "4f8e2f981562d97072c40af4617bf909c5d2e6d71cd44eb7d701a8416b924b3e"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/iio/qcom,spmi-adc7-pm8350b.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/iio/qcom,spmi-adc7-pm8350b.h",
+      "git_blob": "bcd00b2aff0f03619a946593249f01e8441c7991",
+      "sha256": "68bc953e4d8cb9460682650abae3bb277262d6b04b3d7a9a86a1eefd7250f61b"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/iio/qcom,spmi-adc7-pm8350.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/iio/qcom,spmi-adc7-pm8350.h",
+      "git_blob": "9426f27a19466758163fd533e2b363c5d332be23",
+      "sha256": "5e9bccb02eaedf1962b142f305f286dd71ed3661c9185652655528644f8ddf8d"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/iio/qcom,spmi-adc7-pmk8350.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/iio/qcom,spmi-adc7-pmk8350.h",
+      "git_blob": "6c296870e95bd4611e7bb32e48d176494c8c746a",
+      "sha256": "c238f8662a8ab727deac7bef08994d0e5ffb2aed057000d76a3b19b275bdc230"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/iio/qcom,spmi-adc7-pmr735a.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/iio/qcom,spmi-adc7-pmr735a.h",
+      "git_blob": "d6df1b19e5ff01d15a21c42dfa9af569647a2842",
+      "sha256": "dcafa79aab238d05a7af7af603e641791341a25665aa1c3885502612a7e127d9"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/iio/qcom,spmi-adc7-pmr735b.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/iio/qcom,spmi-adc7-pmr735b.h",
+      "git_blob": "8da0e7dab315af244f73ae27231a5fc0a1e876b2",
+      "sha256": "9d0dcc2517069bb95f83714a2fdc55683f48ba1368bbe1f0b37ebea584b2ea18"
+    },
+    {
+      "kind": "kernel",
+      "path": "include/dt-bindings/input/qcom,hv-haptics.h",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-kernel-source/092f3fa0aa3916032fc4aa2c0101352541ecbd8b/include/dt-bindings/input/qcom,hv-haptics.h",
+      "git_blob": "8453d2ae9de6b81af39a452831a895d5576aa41c",
+      "sha256": "609c84d842091aa6f3ecb8a075767abdb53e3f2871d17adc439462b4dfb8c53e"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sharp-dsc-qhd-plus-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sharp-dsc-qhd-plus-cmd.dtsi",
+      "git_blob": "a1337529c3a5860d4f0a125bcbc04ba66d307a2c",
+      "sha256": "75b426cffa982d8a7e5be89f3949118377d1bb245239c5c36ad057d5f5fc4d78"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-60hz-video.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-60hz-video.dtsi",
+      "git_blob": "77ab5f29a692404db2abd7478f2bb65f743ef049",
+      "sha256": "8e908683518794eb025ddce48f14ca67a1643300cc1d3d9dffde0baad7e1087f"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-video-cphy.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-video-cphy.dtsi",
+      "git_blob": "b37813d2c079017d6084b9155b1856d406af72f8",
+      "sha256": "5da520fed3aab4f0335890bcc9fb88620d36818dae35cc4f1519e101a83306d3"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-cmd-cphy.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-cmd-cphy.dtsi",
+      "git_blob": "7486b66b97adc8c2e6c59495de0fdd7e6cc97302",
+      "sha256": "ba6d9452c0f4a6e2931890b489286fe0eef7e588407869a007a4a64a81cb5091"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-144hz-cmd-cphy.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-144hz-cmd-cphy.dtsi",
+      "git_blob": "7a71b55656b8d48952e4180f40d2fedb25e4e207",
+      "sha256": "39a6ae3214013bc45f1f96966622fb04c2c59558d254285c6bd0ccf4547088c5"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-video.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-video.dtsi",
+      "git_blob": "84d02b1495880d0f4f3a25be5e6f63271ed4a57a",
+      "sha256": "1f1bab61cf9a53b60e5d0f64c04a752731586604b467407cee8f6e33f206c972"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-cmd.dtsi",
+      "git_blob": "3eb9d3ea467267fa62244d8a866320e0c09df026",
+      "sha256": "b988bce65eb162b1effb0483758aeca05378ba275e4712147764e3d0df1bb17e"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-144hz-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-144hz-cmd.dtsi",
+      "git_blob": "fdda193359a42da219b218a05ce426e3988e4353",
+      "sha256": "24e3a928ca5e82d668dacbd436dc9e9dc166029cc3495b170980d3928a806cb1"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-144hz-video-cphy.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-144hz-video-cphy.dtsi",
+      "git_blob": "095350ae568956f40645ab92ad924b1ed0052be1",
+      "sha256": "243bfbc36a7387d5e14a0fc6f4900867ae52bb365828431f645cf9ea99cd9f49"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-120hz-cmd-cphy.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-dsc-fhd-plus-120hz-cmd-cphy.dtsi",
+      "git_blob": "44db2eda5b7c95866cf2fe699ab5432bc5cc9013",
+      "sha256": "7cdac0689f8007dbe7b3e54b44c2f7bd97ad62b4b1bdf0edfd029b7285b35089"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-fhd-plus-90hz-cmd-cphy.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-fhd-plus-90hz-cmd-cphy.dtsi",
+      "git_blob": "39f540365c7ca44f5150831772956d144ad9068a",
+      "sha256": "d895ebae8c1d4a45cc543e343b1c30cc3b4ad95cd438f64aee51cadab5d38fa8"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-fhd-plus-90hz-video-cphy.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-r66451-fhd-plus-90hz-video-cphy.dtsi",
+      "git_blob": "20465ccb60c89c0e66bd0ed31036b8cbcefac69d",
+      "sha256": "b157bb68c0ac800ce8371870644d57fdbfe5eb843d5a8e458b691f875e0b62c9"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-r66451-amoled-120hz-video-cphy.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-r66451-amoled-120hz-video-cphy.dtsi",
+      "git_blob": "0597425ba6ac39413c93de698a8be48f50bed4e8",
+      "sha256": "1ddffdbe184410ed2e55c859b9d40fb1d3bb2c334459a6a5e61818bbe0ef482f"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-cmd.dtsi",
+      "git_blob": "bc657d8d15f9e8f8805f5649572a82f9620f7dd2",
+      "sha256": "007f093a10f5bc9cbf82e90f0d5734eca908b4053b91714ef7a966ef4bd01905"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-video.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-video.dtsi",
+      "git_blob": "f5a522b0748ef20f0689deb3431eee74b86d9a34",
+      "sha256": "7404ab25bb9b759e4a8964accf5ac16119009f62c41ff39cb6e3f323f72dfd4c"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-dualmipi-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-dualmipi-cmd.dtsi",
+      "git_blob": "661f82cb41a14db2afdf3bd0d026446a02c1e0b3",
+      "sha256": "89a5701cfef1cb989feeb195ce5f4c33c1ecc3f859536965003ce4e3f44d7551"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-dualmipi-video.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-dualmipi-video.dtsi",
+      "git_blob": "537a0181d7e69e307f685692e3d1af3675f06143",
+      "sha256": "0d1f97b91d0db509b094e27c79e34c6855687fce9c8154d418b3d34995a01b32"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-dsc-10bit-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-dsc-10bit-cmd.dtsi",
+      "git_blob": "6744775db2a91b821a10a1159bcfff957752c9fa",
+      "sha256": "9e60e257872aa6f545727bcc667fe67fc7dadacd188dc95aad267798af4ae6cf"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-dsc375-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-dsc375-cmd.dtsi",
+      "git_blob": "0211f65948828259bff4be388fa6cf9d438ebde3",
+      "sha256": "b271c3dec564e34aadaec0d0aa3d82b4009b8d9295836b2f69f4c23bc41ea9e8"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-fhd-plus-120hz-video-cphy.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-sim-fhd-plus-120hz-video-cphy.dtsi",
+      "git_blob": "f6022b02e4eae850d0ac15d11fe36de893a947b1",
+      "sha256": "3916a0c331c5635d1cca4f2f782f5abb1e55deb695a987b76376c202557f8b7f"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/cape-sde-display-pinctrl.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/cape-sde-display-pinctrl.dtsi",
+      "git_blob": "29cdf064a807ebba510a639756fc42287b3612a9",
+      "sha256": "dc10d86b5ddc65cc22c9367461c83f196ca33e761d6625158f156cd0b5877f8c"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-samsung-s6e3-1792-1920-dsc-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-samsung-s6e3-1792-1920-dsc-cmd.dtsi",
+      "git_blob": "dcf86d1a69913cffd685ac064e420b85511d5fa2",
+      "sha256": "9de5333fd001b0c19c27277368da722a0bfb59306591f7153cc725d06a63b2ae"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-samsung_ams662zs01-1080-2400-dsc-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-samsung_ams662zs01-1080-2400-dsc-cmd.dtsi",
+      "git_blob": "db8bfee6baf2375ee0595615e9f2101281f041ee",
+      "sha256": "add9023fe6d6cab3b326b986db1b361afc1e41176424ef80fb4ba22266edbc31"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-samsung-s6e3-1792-1920-dsc-vid.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-samsung-s6e3-1792-1920-dsc-vid.dtsi",
+      "git_blob": "5269521fd00c24294f55946c58ceca5741ced075",
+      "sha256": "acc05adcd62031b967aeca278b4ce0d31a7f9fc7b61f1edfd4f70059d94a6fdb"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-samsung-s6e3xa2-1792-1920-dsc-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-samsung-s6e3xa2-1792-1920-dsc-cmd.dtsi",
+      "git_blob": "080acdb65ee69ec65a354a19cee798cd6adfcd11",
+      "sha256": "5510396070efb08711d95e81ebfe8a364ec087afe3a686b5eeb64d7925edb637"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-samsung-s6e3fac-1080-2120-dsc-cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-samsung-s6e3fac-1080-2120-dsc-cmd.dtsi",
+      "git_blob": "0b5ed544f8c2067dcd3cf8fdb0385434b814c021",
+      "sha256": "855a0f1fe85ae44eb77f8200a19d8ab9f0386bab1008c80ba24c5e317cea521a"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-samsung-s6e3fac-1080-2120-dsc-cmd-wdte.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-samsung-s6e3fac-1080-2120-dsc-cmd-wdte.dtsi",
+      "git_blob": "bc68fdc02db66789653ea189253f84138c49fbea",
+      "sha256": "f6a6a45206f354041424bc211f9c88ad2455f0d99d1c6238ddcebc4d10107061"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi_panel_oplus_lvzhou_ab241_ili7838a_1080_2412_dsc_cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi_panel_oplus_lvzhou_ab241_ili7838a_1080_2412_dsc_cmd.dtsi",
+      "git_blob": "544dfa1ed8a05e29db6fe51792d0c29e1826bc0b",
+      "sha256": "152b353d4fedbdae9515444d14c1a38537d850a50425808c419d392aa636c18b"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi_panel_oplus_boe_rm692e5_1080_2412_dsc_cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi_panel_oplus_boe_rm692e5_1080_2412_dsc_cmd.dtsi",
+      "git_blob": "8028e2b6183f08379373b5efb9741519d0f5c7bd",
+      "sha256": "5bb723f15fba5d7c62e4bf90cfb8a8f48301f3b1e9357f41512fc441037757f9"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-ovaltine_boe_nt37705_1080_2412_dsc_cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus-ovaltine_boe_nt37705_1080_2412_dsc_cmd.dtsi",
+      "git_blob": "e6dc90f8519ce5dc80971225cd6b87c749164e58",
+      "sha256": "c7c1e935e4d82b4f5e6f49f651f6d1d394db3b5b4be6f008f51dd6fa465db867"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi_panel_oplus_tianma_ab389_ili7838a_1080_2412_dsc_cmd.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi_panel_oplus_tianma_ab389_ili7838a_1080_2412_dsc_cmd.dtsi",
+      "git_blob": "a37ec6ca0e9af135f68b6487fa5fcf871c5acd62",
+      "sha256": "eb17525ff80d86d90b576534d015f5c2fb85f9dd25900f893487aeed379d1105"
+    },
+    {
+      "kind": "vendor",
+      "path": "vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus21606-nt37701b-1080-2412-dsc-cmd-udc.dtsi",
+      "url": "https://raw.githubusercontent.com/realme-kernel-opensource/realme_GT2-master-exploratory-AndroidT-vendor-source/18834d222ca80f4899673773894ecd163538b374/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-oplus21606-nt37701b-1080-2412-dsc-cmd-udc.dtsi",
+      "git_blob": "437864afcdbbfcfd69ca61c460a499e6b11b54cc",
+      "sha256": "8e6ed9ecba0e631162846eac9953affdaae4ebec19482977def640f83b888ca4"
+    }
+  ]
+}

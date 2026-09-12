@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: Apache-2.0
+# USB setup only. Upstream recovery_main controls adb/fastbootd mode selection.
+# Avoid running touch firmware update/calibration operations during bring-up.
+on init
+    setprop sys.usb.configfs 1
+    setprop sys.usb.controller a600000.dwc3
+    setprop ro.recovery.usb.vid 18D1
+    setprop ro.recovery.usb.adb.pid D001
+    setprop ro.recovery.usb.fastboot.pid 4EE0
+
+on fs
+    mkdir /firmware 0755 root root
+    mkdir /vendor/firmware_mnt 0755 root root
+    mkdir /vendor/bt_firmware 0755 root root

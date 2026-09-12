@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.mk text eol=lf
+*.rc text eol=lf
+*.py text eol=lf
+modules/* text eol=lf

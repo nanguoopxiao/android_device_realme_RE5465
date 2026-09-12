@@ -1,0 +1,3 @@
+# Initial extraction entry point. Do not treat this as a complete blob list.
+# Full vendor/odm ELF audit is generated in work/vendor-audit on the build server.
+# Transition away from image prebuilts only after dependencies and fixups are reviewed.

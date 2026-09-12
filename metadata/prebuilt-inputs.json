@@ -1,0 +1,2324 @@
+{
+  "schema_version": 1,
+  "device": "RE5465",
+  "model": "RMX3551",
+  "captured_kernel": "5.10.226-android12-9-o-g11c6e37b2a8e",
+  "description": "Matched private hardware inputs; files are supplied locally and not distributed.",
+  "files": [
+    {
+      "path": "dtb/gt2master.dtb",
+      "size": 1434126,
+      "sha256": "0fa5416a6b417f25007f62b75bcc012a76596b1c01d7af783fb090940abce5dd"
+    },
+    {
+      "path": "dtbo.img",
+      "size": 25165824,
+      "sha256": "409581ea765dd03d1c3906a59db0d0270f74b227b94b68e2b39c98bc89283c55"
+    },
+    {
+      "path": "images/odm.img",
+      "size": 1639571456,
+      "sha256": "8b5fe94481cf61dc62d6c74d6e8ee9a00ce3d1996e22099c68e9690a4a7697bf"
+    },
+    {
+      "path": "images/odm_dlkm.img",
+      "size": 348160,
+      "sha256": "41bfca3b49e01fa379ea532ad1089b67153029812f9e800f08ae75fcd5d8d123"
+    },
+    {
+      "path": "images/vendor.img",
+      "size": 677044224,
+      "sha256": "f9088bc1b752a1cdf0783a456db952a8034785b8ee50d9561aada1d5b5a12c23"
+    },
+    {
+      "path": "images/vendor_dlkm.img",
+      "size": 159145984,
+      "sha256": "ad9d75243ce1e641ad67dbda5b44074866d32b7de834b111b1a9bf58ad67e9e7"
+    },
+    {
+      "path": "kernel/Image",
+      "size": 48045148,
+      "sha256": "df3cd28a2cb8257d4ef643b46d3a23487b5feed9e5e2dd911cc78e543d701c70"
+    },
+    {
+      "path": "ramdisk-modules/adsp_sleepmon.ko",
+      "size": 49840,
+      "sha256": "4f1616ae88560480a7690ea92be5535aafa86e191fef791b528ecf199249276e"
+    },
+    {
+      "path": "ramdisk-modules/altmode-glink.ko",
+      "size": 34032,
+      "sha256": "9603910e4c21af255d67f2a6de79590135cd71b202cfa89678f7ca93ca64352b"
+    },
+    {
+      "path": "ramdisk-modules/arm_smmu.ko",
+      "size": 372928,
+      "sha256": "397cd0647dc189391048676696c49af8f81b9606a10f1ed686b64f8a28a5233b"
+    },
+    {
+      "path": "ramdisk-modules/aw8697.ko",
+      "size": 422968,
+      "sha256": "914a1f6e43d23881fb2d91b7e2b0ba6a26f61d0a367592d2cc42817cbb25de5e"
+    },
+    {
+      "path": "ramdisk-modules/bam_dma.ko",
+      "size": 57856,
+      "sha256": "fb7786ed52a52bfdb2995211d06790b521141914066765012c33f81f956f61c5"
+    },
+    {
+      "path": "ramdisk-modules/bcl_pmic5.ko",
+      "size": 32400,
+      "sha256": "6827f29bb5d3b41a57bdc3d6f14399a226aff71cd052afacd90f9d9e3ee54c7b"
+    },
+    {
+      "path": "ramdisk-modules/bcl_soc.ko",
+      "size": 19144,
+      "sha256": "9acb8d78cd3b12e23d3a560ffe7a3bd262af721f819f688824944fd4ef4a7b85"
+    },
+    {
+      "path": "ramdisk-modules/boot_mode.ko",
+      "size": 18888,
+      "sha256": "a8266d3a23bee9d26e21623456bb87d7c3f4c99d609605dc7c9db4d826b60472"
+    },
+    {
+      "path": "ramdisk-modules/boot_stats.ko",
+      "size": 16464,
+      "sha256": "15842ebc57b6c62011a339d672afd8ef17d066984f4357dafa75a22a1e93577c"
+    },
+    {
+      "path": "ramdisk-modules/bootloader_log.ko",
+      "size": 18096,
+      "sha256": "d3b260459b45419a9d970f0ea92fa245320dcb159ed96fe110df702476c2133a"
+    },
+    {
+      "path": "ramdisk-modules/bt_fm_slim.ko",
+      "size": 48464,
+      "sha256": "3de2d08303c559dfebca9a5b98377f14f969eb29a3dc4405b3a688b05a6ee32b"
+    },
+    {
+      "path": "ramdisk-modules/btpower.ko",
+      "size": 59424,
+      "sha256": "2f53811597a2d47ac705c932746a0beba2853a71faeae5d8811afcb0cb74c7af"
+    },
+    {
+      "path": "ramdisk-modules/buildvariant.ko",
+      "size": 10144,
+      "sha256": "37aec7c945afd3afc5cc0bf48d6683969ebbd38b78e57cc88294b51e2a5bd286"
+    },
+    {
+      "path": "ramdisk-modules/bwmon.ko",
+      "size": 102280,
+      "sha256": "a7c6df53034e0007fddfcacf11bb04ab6271aade57a1190692d108522edc92b4"
+    },
+    {
+      "path": "ramdisk-modules/c1dcvs_scmi.ko",
+      "size": 27408,
+      "sha256": "b9c297557f308869709ff32f986e696469a40f635b786eb525855493ad26644f"
+    },
+    {
+      "path": "ramdisk-modules/c1dcvs_vendor.ko",
+      "size": 16184,
+      "sha256": "e57aac662abe7193af27e38b94dd1a5999e26e57d10d86b3642597bbffd9aeb3"
+    },
+    {
+      "path": "ramdisk-modules/camcc-diwali.ko",
+      "size": 144296,
+      "sha256": "6175013c1dbb4705120c02e2f3c218fa2627a883902cfd2231f34035968f40d1"
+    },
+    {
+      "path": "ramdisk-modules/camcc-waipio.ko",
+      "size": 184256,
+      "sha256": "89dd1f525c0dbdec174d5bb513b13e730c8e35036fb2bf624948c4458fc6a19e"
+    },
+    {
+      "path": "ramdisk-modules/cdsp-loader.ko",
+      "size": 18840,
+      "sha256": "2889d7494d56dd3e1d01cdcb68aac2f0ef93ad72944c8a7af1740f2d22b96268"
+    },
+    {
+      "path": "ramdisk-modules/cdsprm.ko",
+      "size": 61872,
+      "sha256": "e622b1d27ee1f2282704f0319efd0aee46e8998c631661fd7dd0cbdef0e6b9f8"
+    },
+    {
+      "path": "ramdisk-modules/cdt_integrity.ko",
+      "size": 10096,
+      "sha256": "06bf48e6ec63f87cc3028d886f89d5adbe1763dcdcf4e1f2aef164bb521e42de"
+    },
+    {
+      "path": "ramdisk-modules/cfg80211.ko",
+      "size": 2059576,
+      "sha256": "1aeb3bbbc0564f2e28fbcd347c51e4038e2a6cd79e5a5400e8f693d3a1262c34"
+    },
+    {
+      "path": "ramdisk-modules/charger-ulog-glink.ko",
+      "size": 30688,
+      "sha256": "031dc0f4d07439c6fb911ff426e9c486832b0aedeae1eb6b19aafa5677c0df26"
+    },
+    {
+      "path": "ramdisk-modules/clk-dummy.ko",
+      "size": 17840,
+      "sha256": "30781c36db1449c3f5dbcf31fa53f46d7c404c3ee5630d59a725655b31bdad07"
+    },
+    {
+      "path": "ramdisk-modules/clk-qcom.ko",
+      "size": 365800,
+      "sha256": "95115f4c845355800ffc094685a2aadc52a175431210da55b6f23c33c6e30701"
+    },
+    {
+      "path": "ramdisk-modules/clk-rpmh.ko",
+      "size": 112480,
+      "sha256": "3d1de6746d03faf323ce47d4d91ccb897bfae57610e0eaa3269fbfc4949059d0"
+    },
+    {
+      "path": "ramdisk-modules/cmd-db.ko",
+      "size": 21680,
+      "sha256": "b86867bb62bdc13c711cc38500026a617366a38fd08219af559887840c93e596"
+    },
+    {
+      "path": "ramdisk-modules/cnss2.ko",
+      "size": 1031552,
+      "sha256": "4fce332a0936d107ba1d788f715e3baba757a6756f2d957388769ff9e45aab6b"
+    },
+    {
+      "path": "ramdisk-modules/cnss_nl.ko",
+      "size": 16600,
+      "sha256": "5939538e0415edbf996ab5e35d0874e8e9c9cdef3ec9136b5487a19a6cd307f0"
+    },
+    {
+      "path": "ramdisk-modules/cnss_plat_ipc_qmi_svc.ko",
+      "size": 61728,
+      "sha256": "b4eac4ac958d904e9f4ad5455ae3a8caaad3917ab5dd5f17669148cd6f7e03b3"
+    },
+    {
+      "path": "ramdisk-modules/cnss_prealloc.ko",
+      "size": 19280,
+      "sha256": "182e0527176594f1c04d2e1f58dbe8bcff75cc812ffaac19b7fe23edf637dd46"
+    },
+    {
+      "path": "ramdisk-modules/cnss_utils.ko",
+      "size": 34568,
+      "sha256": "04b397cf0b323c22cc98c87ecc6cd19f2d40c119e801659b3e6f022a2586d15f"
+    },
+    {
+      "path": "ramdisk-modules/combkey_monitor.ko",
+      "size": 30152,
+      "sha256": "d44652aeac1c191dfcf14e59c30fa47c9d10ad5be249729f7cae810ab1dd5843"
+    },
+    {
+      "path": "ramdisk-modules/core_hang_detect.ko",
+      "size": 26368,
+      "sha256": "d6d5c1c54287b4b2f5a731fd85e4977b2c9a71ad49ac804a8b17d799ea3edd67"
+    },
+    {
+      "path": "ramdisk-modules/coresight-csr.ko",
+      "size": 48840,
+      "sha256": "44760ba0113a16a469df471d6054b2322b63e06108d558efee3f84f28d8f8640"
+    },
+    {
+      "path": "ramdisk-modules/coresight-cti.ko",
+      "size": 130416,
+      "sha256": "824729a1c249d60e7f14109c94ae245f812ce4e3b17b08a5addb4c102a78d695"
+    },
+    {
+      "path": "ramdisk-modules/coresight-dummy.ko",
+      "size": 16832,
+      "sha256": "38e470b7f94d8cc3b3d35821cee8cde218a0fe0205cef056be2388175682af69"
+    },
+    {
+      "path": "ramdisk-modules/coresight-funnel.ko",
+      "size": 33160,
+      "sha256": "1a26e716106ccd1ff1c31fbd54923351b6af8442068449219a04b2de082bcde8"
+    },
+    {
+      "path": "ramdisk-modules/coresight-hwevent.ko",
+      "size": 20544,
+      "sha256": "370b16453927a82c318c81f50a855e386ada5c716b68b9472a65603d2e04fa02"
+    },
+    {
+      "path": "ramdisk-modules/coresight-remote-etm.ko",
+      "size": 21664,
+      "sha256": "4f93f2721d8e3edce64a9bd09e34cc392cf07b24521a0e31efbc0f60f7b4d26f"
+    },
+    {
+      "path": "ramdisk-modules/coresight-replicator.ko",
+      "size": 35624,
+      "sha256": "f13ff92885741e31a3e548a54626d278fc8fadde7bc21212f5b1a34561730abd"
+    },
+    {
+      "path": "ramdisk-modules/coresight-stm.ko",
+      "size": 50128,
+      "sha256": "0163d969a7b78bd5fd1d1141a54bda505261c00976369c92b012beb953081aae"
+    },
+    {
+      "path": "ramdisk-modules/coresight-tgu.ko",
+      "size": 24816,
+      "sha256": "e091b07d467c28470f917cd2d9ed04f1a50e79c9eb1401ddaf2972cd4de0e3e1"
+    },
+    {
+      "path": "ramdisk-modules/coresight-tmc.ko",
+      "size": 175960,
+      "sha256": "f91378277a62d0c61e06fbd339b327f29d84eb7e7008e5358c0c1ce11beea167"
+    },
+    {
+      "path": "ramdisk-modules/coresight-tpda.ko",
+      "size": 41752,
+      "sha256": "0496cb8b4a606536b1942fb096c24d2c2c6f03a50bce12169de76f513d0d3e55"
+    },
+    {
+      "path": "ramdisk-modules/coresight-tpdm.ko",
+      "size": 181272,
+      "sha256": "d34b32b05b915785e6669d23bd0ce9eecd7ef3c46e7cd67af621a6cd0067ba33"
+    },
+    {
+      "path": "ramdisk-modules/coresight.ko",
+      "size": 108672,
+      "sha256": "a5bdb9b7615c093f80e3661c489e088b8b512a255158adfbc9abb61e1038d65e"
+    },
+    {
+      "path": "ramdisk-modules/cpu_hotplug.ko",
+      "size": 20560,
+      "sha256": "35f2c808a83faffc1f073ca2ea575d6e614963baf6f8915bffab6a5e5b6997aa"
+    },
+    {
+      "path": "ramdisk-modules/cpu_voltage_cooling.ko",
+      "size": 22960,
+      "sha256": "aeb0d1d4379b6facb13d78fa4b541af9e27f6eb133cae71c9450fe0e86786a9e"
+    },
+    {
+      "path": "ramdisk-modules/cpufreq_bouncing.ko",
+      "size": 42480,
+      "sha256": "bc164da43a052d9da58475e5a3724378baf8283d6f3fccf64ad7d3448c1f89bb"
+    },
+    {
+      "path": "ramdisk-modules/cpufreq_effiency.ko",
+      "size": 25312,
+      "sha256": "854d64967da0b814439a8e44d9515895e3c1addacc35b6d71d092a2c69d04439"
+    },
+    {
+      "path": "ramdisk-modules/cpufreq_health.ko",
+      "size": 29760,
+      "sha256": "198b157eafbd28670c0b4913821bca9622d4295271a6e59437411b2360537dc6"
+    },
+    {
+      "path": "ramdisk-modules/cqhci.ko",
+      "size": 84768,
+      "sha256": "582beeef1f980ad932e883a07723c48c470b13e56ea586d4b2655a3b175b6e11"
+    },
+    {
+      "path": "ramdisk-modules/crypto-qti-common.ko",
+      "size": 55496,
+      "sha256": "e043835a537e3fe3a56a3c119d869259bfbd0ecbf6b0080a4f701b744027c9d5"
+    },
+    {
+      "path": "ramdisk-modules/crypto-qti-hwkm.ko",
+      "size": 18424,
+      "sha256": "d9e2c10b7f4baa068b8e2cdf1218ef5a85debb7f2e5f94d3ea352ba17c5ef1b1"
+    },
+    {
+      "path": "ramdisk-modules/crypto_zstdn.ko",
+      "size": 489560,
+      "sha256": "12591cc3ec5fec0807a02c73a36b96e750a9fb360336e3856d85f56156aae3cd"
+    },
+    {
+      "path": "ramdisk-modules/cs_press_f71.ko",
+      "size": 157984,
+      "sha256": "7d1a30d3fb0be9e68c68fc8edc3f14eb358a303056cff22757c1f3b49c1d1171"
+    },
+    {
+      "path": "ramdisk-modules/dcc_v2.ko",
+      "size": 78224,
+      "sha256": "e3ce0b70b1557ba2e28b11397e40a0946bcc20c6473e061f0a68f4cc11b8cc29"
+    },
+    {
+      "path": "ramdisk-modules/dcvs_fp.ko",
+      "size": 17808,
+      "sha256": "79484b5370396b2ee755049692d650c6b6c5fefc196a768c59e42caa0ca9c0b9"
+    },
+    {
+      "path": "ramdisk-modules/ddr_cdev.ko",
+      "size": 16360,
+      "sha256": "88e317b778cfa7f7cf45b28ce17e20015082580ae10d345aedec1d4940d92a3e"
+    },
+    {
+      "path": "ramdisk-modules/debug-regulator.ko",
+      "size": 55312,
+      "sha256": "06a8359fe1b431b251177226fae889cfb60dd8431e9b3fe3c38d37d5e34a4c4a"
+    },
+    {
+      "path": "ramdisk-modules/debugcc-diwali.ko",
+      "size": 99640,
+      "sha256": "8999cda5f337e80a3fdf60e363722ddb09ac7fec82b294c66123560652f3f2a3"
+    },
+    {
+      "path": "ramdisk-modules/debugcc-waipio.ko",
+      "size": 46016,
+      "sha256": "469a5d46029fd81f2f0e79afc94b8f87aecf1aedb1900c56af17dfc3e5d6b21b"
+    },
+    {
+      "path": "ramdisk-modules/device_info.ko",
+      "size": 51656,
+      "sha256": "ba8522389b585fea6fb20579c1b823ff9b3372a493ded266aaa4dcc4917aedd0"
+    },
+    {
+      "path": "ramdisk-modules/dispcc-diwali.ko",
+      "size": 110416,
+      "sha256": "66d56e06127c74f185bc59cf9d3525665254becf546dc320009fbf63a014d40d"
+    },
+    {
+      "path": "ramdisk-modules/dispcc-waipio.ko",
+      "size": 116216,
+      "sha256": "10e2420381b5d70c80ac5b085b2de9eb7cef44c756dd49bf2d70be1e7aacab2c"
+    },
+    {
+      "path": "ramdisk-modules/dump_device_info.ko",
+      "size": 23656,
+      "sha256": "2c56346227fc1edc09be7f7585a146f031db7ed2bd51e8ecedc25ae4aa3c2c07"
+    },
+    {
+      "path": "ramdisk-modules/dump_reason.ko",
+      "size": 15680,
+      "sha256": "2bc2efd27328f0e846ffcf32a832bec14fec3eabf9e42a8ba180553901d6bb75"
+    },
+    {
+      "path": "ramdisk-modules/dwc3-msm.ko",
+      "size": 288600,
+      "sha256": "53522ed1e81b5b3d361d79ff90e7f40924688733c310045b4ad2dfca0d3aca1e"
+    },
+    {
+      "path": "ramdisk-modules/ehset.ko",
+      "size": 14232,
+      "sha256": "a0c834bc869d881d419a8d46405529699f29e0863d6dbc351fb8e1de8dc35326"
+    },
+    {
+      "path": "ramdisk-modules/ep_pcie_drv.ko",
+      "size": 373088,
+      "sha256": "67f3917b3abfc2bfb8aa8b418a79ed5ce0f777ce682f7afdecd3e9d7054e8320"
+    },
+    {
+      "path": "ramdisk-modules/eud.ko",
+      "size": 46048,
+      "sha256": "34e8d0efdb9c3159f34af072a71f91c2e1e08ab31d5f36d45490e7f4eae7e96b"
+    },
+    {
+      "path": "ramdisk-modules/f_fs_ipc_log.ko",
+      "size": 63360,
+      "sha256": "c3d03948dd018a8a144b798dad760aac621678bb95ea1a0dbcaf4123111d090b"
+    },
+    {
+      "path": "ramdisk-modules/force_shutdown.ko",
+      "size": 11320,
+      "sha256": "9ab00a5e7e9565ecfa4f179b3243fc55a06292810887a70aa82593b96f4a4303"
+    },
+    {
+      "path": "ramdisk-modules/frpc-adsprpc.ko",
+      "size": 827880,
+      "sha256": "56fd10555be8992cb1f11297bf07d09f4d18396d06b8f9a55c050f7082ac0aaf"
+    },
+    {
+      "path": "ramdisk-modules/fsa4480-i2c.ko",
+      "size": 41968,
+      "sha256": "dd9ceb3d3535d5bc8489b12ff6b36fc6e928a2e6586e769c1998a6867a43abf6"
+    },
+    {
+      "path": "ramdisk-modules/game_opt.ko",
+      "size": 72112,
+      "sha256": "aad970f4c294c551aa95d9258dd3d2fa6cd298a6b0e400316ca79a27862b22e5"
+    },
+    {
+      "path": "ramdisk-modules/gcc-diwali.ko",
+      "size": 147056,
+      "sha256": "fc30b93bd0e9de238a82469972a2b7f8376fdd8eb4a46faf1c54216f4d403a18"
+    },
+    {
+      "path": "ramdisk-modules/gcc-waipio.ko",
+      "size": 194472,
+      "sha256": "cb025b9bcdb911132aadbd0d913e98f767b25da5e1a567cb259cb62b1b34940a"
+    },
+    {
+      "path": "ramdisk-modules/gdsc-regulator.ko",
+      "size": 37832,
+      "sha256": "226ced64c70f68ac443f2e909e82ceb7adccbfe741294dd517970472ccc91d7b"
+    },
+    {
+      "path": "ramdisk-modules/gf_qcom.ko",
+      "size": 70072,
+      "sha256": "6025cf89f4e6cca2311b0019e5afae0826581bd9e74fa33eeeda5f805b78b4ee"
+    },
+    {
+      "path": "ramdisk-modules/gh_arm_drv.ko",
+      "size": 15904,
+      "sha256": "445156e815e3d5e5f76a04d61faf8a3e280acbdeeb061fac808a02ef4cc5ded2"
+    },
+    {
+      "path": "ramdisk-modules/gh_ctrl.ko",
+      "size": 25040,
+      "sha256": "6278ea370c12b5d8fa6e8f3bcaaa4509dc9bcb0d1e69ff126c23240deb0230c3"
+    },
+    {
+      "path": "ramdisk-modules/gh_dbl.ko",
+      "size": 30224,
+      "sha256": "8a8a970772763150c2839f31c3f168f8f8185ab6746d20e334d7c1864b6fc318"
+    },
+    {
+      "path": "ramdisk-modules/gh_irq_lend.ko",
+      "size": 26648,
+      "sha256": "7b2e1b15d625fe26f97c26554c0c8942871fb1f24ec7ee89f1053711a98e1c0a"
+    },
+    {
+      "path": "ramdisk-modules/gh_mem_notifier.ko",
+      "size": 14648,
+      "sha256": "feb7be5f4dc464e8846eb8544e707c92fac4c41e6856d627faf6c6e8ca66266d"
+    },
+    {
+      "path": "ramdisk-modules/gh_msgq.ko",
+      "size": 31904,
+      "sha256": "9f486ea89e061c3b27c13778750204f204ff25bcdcd2057b68379671e98aa4fb"
+    },
+    {
+      "path": "ramdisk-modules/gh_rm_drv.ko",
+      "size": 112552,
+      "sha256": "a19e129361dd706542891c724dabd775549d5bf2ddc0d73fbdfab797aa6e51ca"
+    },
+    {
+      "path": "ramdisk-modules/gh_virt_wdt.ko",
+      "size": 18952,
+      "sha256": "c7072cb45ed0ddd180634cc5be3a42fa27cb30140c98141b6c8d94a305f2a636"
+    },
+    {
+      "path": "ramdisk-modules/gh_virtio_backend.ko",
+      "size": 98544,
+      "sha256": "4774a731fe84ad787dbfcb6aa07e95036466d8b1763edc8ce9c26f3d5998b6a0"
+    },
+    {
+      "path": "ramdisk-modules/glink_pkt.ko",
+      "size": 64456,
+      "sha256": "78211c6c1de634a4b50781661df5eb5442f3c94d3d909a3ae67b0de50e2be156"
+    },
+    {
+      "path": "ramdisk-modules/glink_probe.ko",
+      "size": 24416,
+      "sha256": "15dda13ae6bf71aa15f6b5fdc0ac83ac49062d1ce28243c2405a6409f84260dc"
+    },
+    {
+      "path": "ramdisk-modules/gpi.ko",
+      "size": 115248,
+      "sha256": "8db549bf1a396890094d039cd11b181165bda99dcbd76f4e9061ca232ae6a73c"
+    },
+    {
+      "path": "ramdisk-modules/gplaf_scmi.ko",
+      "size": 11528,
+      "sha256": "60ca79bd113f90952a287c05131026062b7677df42576581368452e4bb786803"
+    },
+    {
+      "path": "ramdisk-modules/gplaf_vendor.ko",
+      "size": 14352,
+      "sha256": "e6577690010aff903169d97137b97173447ff1814964e22769aa5197470ac49b"
+    },
+    {
+      "path": "ramdisk-modules/gpucc-diwali.ko",
+      "size": 44760,
+      "sha256": "8e5018cee5fb542619443f196feadd5c2fa0b3d2dccdf9824fd2b237c1156aaa"
+    },
+    {
+      "path": "ramdisk-modules/gpucc-waipio.ko",
+      "size": 55624,
+      "sha256": "a20a7997be1ca1d7c20053f2056e5111a38a5c44470b4b7719ae74d3d065bc18"
+    },
+    {
+      "path": "ramdisk-modules/guestvm_loader.ko",
+      "size": 31472,
+      "sha256": "c835e2c98f66970785c2a41697d5fb52c6fc9cbbb8fca3ba19f5419217645375"
+    },
+    {
+      "path": "ramdisk-modules/haptic.ko",
+      "size": 481112,
+      "sha256": "2fd20f42ffc85e0e27f8fdc30d664d28bee51c0637b71499e802f2507d8b5089"
+    },
+    {
+      "path": "ramdisk-modules/haptic_feedback.ko",
+      "size": 39472,
+      "sha256": "87067af88132cea4d72416bb7b66b470c921c78f5cbdad32b76f06078a7c066e"
+    },
+    {
+      "path": "ramdisk-modules/hdcp_qseecom.ko",
+      "size": 52216,
+      "sha256": "06620651ed1660cf568151dde7d924b130f0e3f78b7c3c57b853fd424ccd3db4"
+    },
+    {
+      "path": "ramdisk-modules/heap_mem_ext_v01.ko",
+      "size": 12840,
+      "sha256": "7d64690084c3fd12958e26e21f8360f101e9b732dc4724a4f240f721ac5d2bcd"
+    },
+    {
+      "path": "ramdisk-modules/horae_shell_temp.ko",
+      "size": 25360,
+      "sha256": "f34e6d3d39bf37d8eb35457967378956fdf2b0105504fea3624cb3e87074238d"
+    },
+    {
+      "path": "ramdisk-modules/hung_task_enh.ko",
+      "size": 18680,
+      "sha256": "e11ce096ca1b954e94d1a7f2c09048c89c721af72acbee85d666573239f698ca"
+    },
+    {
+      "path": "ramdisk-modules/hung_task_enhance.ko",
+      "size": 23872,
+      "sha256": "71256e364250d17d9e2362ea917b0970c4497ea4a8f813a370c7f3503672309f"
+    },
+    {
+      "path": "ramdisk-modules/hvc_gunyah.ko",
+      "size": 21448,
+      "sha256": "435a8c9f527c5f31a435f84a45e3ff04533197e407343bbded86759aabd76365"
+    },
+    {
+      "path": "ramdisk-modules/hwkm.ko",
+      "size": 25808,
+      "sha256": "ef9f0259c43e55ca4818c9ab2789f55dc5ce32a0a9688744eb9b56d2dcd76cdf"
+    },
+    {
+      "path": "ramdisk-modules/hwmon.ko",
+      "size": 60976,
+      "sha256": "d38fee4704892428ea487889fdfeed96b2f65f751f1c9fb91355cc250c751042"
+    },
+    {
+      "path": "ramdisk-modules/hyp_core_ctl.ko",
+      "size": 87376,
+      "sha256": "51a96a8d1ac2b3665d09e3a57216cefd79fc52283a5b8d7108f3bacd5fdeebf7"
+    },
+    {
+      "path": "ramdisk-modules/i2c-msm-geni.ko",
+      "size": 100784,
+      "sha256": "94c3d3b5c02b2420a4d35fb2ad4448aa9cf9fe95391c8e49e9252695dbf5cf3e"
+    },
+    {
+      "path": "ramdisk-modules/i3c-master-msm-geni.ko",
+      "size": 84224,
+      "sha256": "ddcbd40f261b5df1a9c9157a6e6333760f7ee887ea82e3242394c5ae346dd0c4"
+    },
+    {
+      "path": "ramdisk-modules/icc-bcm-voter.ko",
+      "size": 22696,
+      "sha256": "2d9ec9fbd12c76ceec28d18d82d358e12186ca9f8de8ce1fdba7a154c01f277d"
+    },
+    {
+      "path": "ramdisk-modules/icc-debug.ko",
+      "size": 20720,
+      "sha256": "72a21dac2637892541e97a980c95310d3eb1b5a21a1c758e8834c149ff4ec837"
+    },
+    {
+      "path": "ramdisk-modules/icc-rpmh.ko",
+      "size": 28032,
+      "sha256": "17276ce46918c69dbca60faf7c6eba4f4f641abff2a50d08beadb5040798f374"
+    },
+    {
+      "path": "ramdisk-modules/icc-test.ko",
+      "size": 16088,
+      "sha256": "5b40734404df3da7dbe3cde9b0e1fec0e61d978ab5670dfaac8ba1b4de985857"
+    },
+    {
+      "path": "ramdisk-modules/icnss2.ko",
+      "size": 430944,
+      "sha256": "b72457ca37526c166ff8e85cf6dafdfcabf093ff5c4d44369c2eb86a178a30b6"
+    },
+    {
+      "path": "ramdisk-modules/init_watchdog.ko",
+      "size": 31384,
+      "sha256": "b604f4b00c94c582bf137863beaa1a10e780975f8612369a7e6fa7b9b238a501"
+    },
+    {
+      "path": "ramdisk-modules/iommu-logger.ko",
+      "size": 13352,
+      "sha256": "bfbde67ee9c1f5d1d531e8ab97b5140fc8255881746ce2149c2db361f4cdc4eb"
+    },
+    {
+      "path": "ramdisk-modules/ipa_fmwk.ko",
+      "size": 224632,
+      "sha256": "c838b75b6bca4db18ad99bc79ebc1049b0d6ee139fd493f82bdb249f5a3ec8bf"
+    },
+    {
+      "path": "ramdisk-modules/kernel_fb.ko",
+      "size": 37256,
+      "sha256": "6bb4dc6d968b9061fdce2225b935ff387c7e981cecac6221bb9f806857862c4d"
+    },
+    {
+      "path": "ramdisk-modules/keyevent_handler.ko",
+      "size": 22952,
+      "sha256": "52b3c1db14af4dced77764806097bf59a81f34f044df8e3b4695e505848e3a80"
+    },
+    {
+      "path": "ramdisk-modules/kryo_arm64_edac.ko",
+      "size": 27576,
+      "sha256": "b284f1d095eb54adf88c48a9e71c95cd194f1d8f671296bdcd934f41ea2e9b99"
+    },
+    {
+      "path": "ramdisk-modules/last_boot_reason.ko",
+      "size": 27592,
+      "sha256": "5cc99c072f874633f209941808b97925d1478608a533d558be1405419dca3714"
+    },
+    {
+      "path": "ramdisk-modules/leds-qpnp-vibrator-ldo.ko",
+      "size": 26432,
+      "sha256": "43425e4a91048884ae5c8feeb47732355c58c8e96b30b53c2a1b9bd97e235085"
+    },
+    {
+      "path": "ramdisk-modules/leds-qti-flash.ko",
+      "size": 58432,
+      "sha256": "2cb0f43a31b25e887b8f502aaa9b5326cf1009584e76ff8d3b26b2d14f227b79"
+    },
+    {
+      "path": "ramdisk-modules/leds-qti-tri-led.ko",
+      "size": 25448,
+      "sha256": "2df35d55331380b0206ed1e81733027b1c3011b0e8332cdcffe167caedb15eca"
+    },
+    {
+      "path": "ramdisk-modules/leds_aw210xx.ko",
+      "size": 74216,
+      "sha256": "698a88f7384122d87b56291752f5b3443f776911e60a186cc3ef693e31474dae"
+    },
+    {
+      "path": "ramdisk-modules/llcc-qcom.ko",
+      "size": 61144,
+      "sha256": "3a6a763355cfa7d028b70e2fae5cebb9544e65d5f56c41a7e63b0af034f66b6c"
+    },
+    {
+      "path": "ramdisk-modules/llcc_perfmon.ko",
+      "size": 51440,
+      "sha256": "cbfe4bed6046d2b1e9615c6182ec2485064499eaabb9faa2628a1b29019cf697"
+    },
+    {
+      "path": "ramdisk-modules/lt9611uxc.ko",
+      "size": 83160,
+      "sha256": "af09f66996676946dfd8f060232d36ab6e65fdc390a98270d24e34f09d6218d1"
+    },
+    {
+      "path": "ramdisk-modules/lvstest.ko",
+      "size": 26328,
+      "sha256": "640ce0a57097b2f3b1e2fd84a6c28e1e1d671d1bc19d53b8b1c01dd87d5e39ab"
+    },
+    {
+      "path": "ramdisk-modules/lzo-rle.ko",
+      "size": 16104,
+      "sha256": "7af797d7c292867b057571248dc44d5dc5355887a843705059c8cdc1aa664793"
+    },
+    {
+      "path": "ramdisk-modules/lzo.ko",
+      "size": 16048,
+      "sha256": "1ad4276be17bc452c9ddf97a651d896a315ff7b36ecb6af2ad986e58cc6c542e"
+    },
+    {
+      "path": "ramdisk-modules/mac80211.ko",
+      "size": 2094320,
+      "sha256": "a05086b379b655f9fffcc806494534486bb1c5d95e850975e0e4f283878f9a43"
+    },
+    {
+      "path": "ramdisk-modules/mdt_loader.ko",
+      "size": 20136,
+      "sha256": "f37ed82fe0bd0bcd748a7fa3a029b2ff188bb49592ff5a6fe9ce66b164855edf"
+    },
+    {
+      "path": "ramdisk-modules/mem-hooks.ko",
+      "size": 16848,
+      "sha256": "b57640ca39df5a9fb573911bd93f4e5512d40497a4b4100c06830934036e4cc3"
+    },
+    {
+      "path": "ramdisk-modules/mem-offline.ko",
+      "size": 69392,
+      "sha256": "3cf104524f0fc3a4d3158d0c124d9dd9073e1a94314c63d859732e174f014fa2"
+    },
+    {
+      "path": "ramdisk-modules/mem_buf.ko",
+      "size": 80816,
+      "sha256": "416446213f74d768e25a5944493c11101345eb2f58efee59770d4660dcb4a1bf"
+    },
+    {
+      "path": "ramdisk-modules/mem_buf_dev.ko",
+      "size": 161968,
+      "sha256": "8199d02bbb3c7b806e12b14a07b60d1452eaeae63ed5f1f2ac50e4fe18b91b78"
+    },
+    {
+      "path": "ramdisk-modules/memlat.ko",
+      "size": 83280,
+      "sha256": "7772e82483186fe80053c7ac423ba5c405fe7188af3ae872b7170cd3fc40fa57"
+    },
+    {
+      "path": "ramdisk-modules/memory_dump_v2.ko",
+      "size": 33432,
+      "sha256": "fda8fba56cdba18a811df8be64778223ddabe1dd931c63b57f7128200db2cb9e"
+    },
+    {
+      "path": "ramdisk-modules/mhi.ko",
+      "size": 261008,
+      "sha256": "cdd2390225136000c662c10e65776a5034b20ef5dd07e2c7710fc706516bdf95"
+    },
+    {
+      "path": "ramdisk-modules/mhi_cntrl_qcom.ko",
+      "size": 81624,
+      "sha256": "cf9701044131cd901a418ea4185c4a9764bee23e1938aadb0a3ac01d8bf16a2b"
+    },
+    {
+      "path": "ramdisk-modules/mhi_dev_drv.ko",
+      "size": 573288,
+      "sha256": "8d33ca4cba1a63cd5a2c28be711ed32b30577960445bd26e7b72b3e0947f0aa9"
+    },
+    {
+      "path": "ramdisk-modules/mhi_dev_dtr.ko",
+      "size": 23480,
+      "sha256": "090cdaa1a03326b9d4335a362279a70935eee14402531d0ffafa3d6b530e199d"
+    },
+    {
+      "path": "ramdisk-modules/mhi_dev_net.ko",
+      "size": 42040,
+      "sha256": "e115753ffb966adb389cd5adbeaa40b46ba3734f07db2ef3f74df7ee95e024db"
+    },
+    {
+      "path": "ramdisk-modules/mhi_dev_netdev.ko",
+      "size": 57776,
+      "sha256": "e5fab634f9ecf60a3e925fbe2739c697c6ffd466c724e9926c6c27f947850ae8"
+    },
+    {
+      "path": "ramdisk-modules/mhi_dev_uci.ko",
+      "size": 49760,
+      "sha256": "44288f4be0a248b263afcca4a7d456ff7d985357cf0d5f7029a73168e6117ea8"
+    },
+    {
+      "path": "ramdisk-modules/microdump_collector.ko",
+      "size": 17224,
+      "sha256": "6424661cd88d9089fdf0e176b3c29aaac9fc70bfc6366c0437180b39b632fb52"
+    },
+    {
+      "path": "ramdisk-modules/minidump.ko",
+      "size": 159688,
+      "sha256": "a4ddcb788568eacd70012b7dbb5c3d80e639ffb6cb6673eefc775f51f25300a1"
+    },
+    {
+      "path": "ramdisk-modules/msm-geni-se.ko",
+      "size": 81256,
+      "sha256": "f209b3ec66ae67ededdf5e6c1ee82bbdd427961756c3d1d86fee7b6ae40682fd"
+    },
+    {
+      "path": "ramdisk-modules/msm-mmrm.ko",
+      "size": 101016,
+      "sha256": "0745dfe866918fea89d4ee08217629cc509fb0fdeab13abda7b1369dd30e6036"
+    },
+    {
+      "path": "ramdisk-modules/msm_dma_iommu_mapping.ko",
+      "size": 28688,
+      "sha256": "2de1ad77b078eba486a5fd6a121370545b727c202cb88e66a09509db2b5e1a2f"
+    },
+    {
+      "path": "ramdisk-modules/msm_drm.ko",
+      "size": 8109056,
+      "sha256": "073a1e94bf9cc4161afef1751ec21fe25eab29153c72246976a9be98853b12c7"
+    },
+    {
+      "path": "ramdisk-modules/msm_ext_display.ko",
+      "size": 27848,
+      "sha256": "e92130781ad82b1867757ab5d51e366c50a762674fac710575db3660d97a7d2f"
+    },
+    {
+      "path": "ramdisk-modules/msm_geni_serial.ko",
+      "size": 145152,
+      "sha256": "b9f4f7303779016446eb00bd20af5d70c4fbb110160956d1d855494b292a2ce5"
+    },
+    {
+      "path": "ramdisk-modules/msm_kgsl.ko",
+      "size": 3044864,
+      "sha256": "23b2d5451a03a8c90e84b4d331d819a542d10679a30d8d8cbd7521774be921f3"
+    },
+    {
+      "path": "ramdisk-modules/msm_lmh_dcvs.ko",
+      "size": 27240,
+      "sha256": "a1a363271a37bf2b6322ada17938ab986ceb965a66235bc4bd423db3893201f4"
+    },
+    {
+      "path": "ramdisk-modules/msm_memshare.ko",
+      "size": 37912,
+      "sha256": "52d4c65cbbf82634b600a50926d0d56be5c43574061eb98472f97dcbd318de5a"
+    },
+    {
+      "path": "ramdisk-modules/msm_performance.ko",
+      "size": 85192,
+      "sha256": "a34d30d69c097999fb0bc571089a49500eef2eef801e0724d70a1d1e8bcefad6"
+    },
+    {
+      "path": "ramdisk-modules/msm_qmp.ko",
+      "size": 51728,
+      "sha256": "77ad4e1893b1108613e390301e3ad083583c71b9c5f5a1c281681c90a776552e"
+    },
+    {
+      "path": "ramdisk-modules/msm_rng.ko",
+      "size": 30080,
+      "sha256": "53c403d605f25afba615a4c77c2ec8bf0938a81d7436baed46961632f49d4990"
+    },
+    {
+      "path": "ramdisk-modules/msm_sharedmem.ko",
+      "size": 17456,
+      "sha256": "f10c5eec761110d53fe97aa3d828ca9c4cd649fc7a1405fc1cfe2739454b6cad"
+    },
+    {
+      "path": "ramdisk-modules/msm_show_epoch.ko",
+      "size": 10952,
+      "sha256": "c87d9812fc3d410266bfe947b029dfd74a9c9ec9c770dce5b923fbd44fec0126"
+    },
+    {
+      "path": "ramdisk-modules/msm_show_resume_irq.ko",
+      "size": 17624,
+      "sha256": "e096906a91db85ffb8024fc9a0d8d20d909a71032b2be55c78f2a29ce0f9e64b"
+    },
+    {
+      "path": "ramdisk-modules/msm_sysstats.ko",
+      "size": 41664,
+      "sha256": "cfff026f62d0b078dad11fe1b99df7e040b4a27f582dad5d44d7390382bd899d"
+    },
+    {
+      "path": "ramdisk-modules/nfc_i2c.ko",
+      "size": 104112,
+      "sha256": "25f8ea83f24b7b8fe7bb0d5a760d948a3682f9cb48cd624c501178e0e2c63c91"
+    },
+    {
+      "path": "ramdisk-modules/nvmem_qcom-spmi-sdam.ko",
+      "size": 15408,
+      "sha256": "e1ed7f6d2177991f6edc5f65a02bc54f714bdd13bb922f10958556d148b3728b"
+    },
+    {
+      "path": "ramdisk-modules/nvmem_qfprom.ko",
+      "size": 27320,
+      "sha256": "0a800a508162d55564f7a8feb5f0722041d4d6f6e7c9bfadb2fc61966bff882d"
+    },
+    {
+      "path": "ramdisk-modules/oem_qmi_client.ko",
+      "size": 32704,
+      "sha256": "8a89aee1ad32484800f3ba5eb376a00ba6b9425edc622936a76304fb91ead18f"
+    },
+    {
+      "path": "ramdisk-modules/olc.ko",
+      "size": 31400,
+      "sha256": "fe2880c954a123545d3954362cce545448272ae5fc73732758b1020763dac899"
+    },
+    {
+      "path": "ramdisk-modules/oplus_app_monitor.ko",
+      "size": 61016,
+      "sha256": "1343bb348a762b3410af7f84635d89fb2cc5a41de2ab06e1042b6523b8ca511d"
+    },
+    {
+      "path": "ramdisk-modules/oplus_binder_strategy.ko",
+      "size": 263168,
+      "sha256": "94c58b5656200571560204efe37489bf6fac7b4946f17bb9005dce41aa0288d7"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_abort_mm_opt.ko",
+      "size": 12344,
+      "sha256": "a474d034e87421827ae9816de11824a443aa43432a1de93ddcebd6c4a8e19050"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_atd.ko",
+      "size": 35216,
+      "sha256": "949a3a7bb58e7f993630064580bd77909c6f764c4dc87a22dd9073f432c8408a"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_dfr_ubt.ko",
+      "size": 21536,
+      "sha256": "231910cdd7e7f260b86c7a515411f8d3c8c8980cf4cdce7ac4e18d055c7b7ae4"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_dump_tasks_mm.ko",
+      "size": 24120,
+      "sha256": "cec920e1fc61c9d61173595196820f1b57a9a3ff5af84a20ffeb9409166f3017"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_dynamic_readahead.ko",
+      "size": 16088,
+      "sha256": "f3a499eef055fcff70fbbed4c90eb1f20768babe33bfabf91989d503c23a998e"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_eas_opt.ko",
+      "size": 65640,
+      "sha256": "d99947f3957d1c59bfcce418a9483eb447f7e9fa4e12a9d31e005253cdbf1949"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_frame_boost.ko",
+      "size": 170216,
+      "sha256": "6a8946269f9388b89d9561792ad7071276d318ec89f08260ce0985c26cc3b148"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_fw_update.ko",
+      "size": 15928,
+      "sha256": "1a905a075c839217a38b9823c2154e0a70b1a1e3491f2a96238e049d20e41372"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_gloom.ko",
+      "size": 53960,
+      "sha256": "234a05230559a2df2d67c1932ad6222e1b8d6b9bd4af9f0620080ee8168758e2"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_hybridswap_zram.ko",
+      "size": 699168,
+      "sha256": "55ac2b4ab6675a7d049388edb61482367dbc07e55c8acf2ae71355e6bb5b3f72"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_ir_core.ko",
+      "size": 31792,
+      "sha256": "58b7f7322848429aacf623f397effba61817a6e89a49198ef2a556d51209343a"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_ist_down.ko",
+      "size": 54920,
+      "sha256": "6375d2790fcb913b9cb4202d8fa8131e34f8380351f79e9ec38ff8c0f9213d3b"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_ist_up.ko",
+      "size": 54840,
+      "sha256": "cef5b7bcac0b2151a36e3506977fb2c9277604cccda2087b9ae9f4bfb34b9ecb"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_kookong_ir_spi.ko",
+      "size": 18712,
+      "sha256": "b2b8cf06607ec411790366ae5bb19f7d0a9532710a6fdcc1cdad2ec0c644b0b4"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_kshrink_lruvecd.ko",
+      "size": 30352,
+      "sha256": "9e461962353842b7dca13b81d93c69e66ac97d4ae40da6f6342599ae59ee8e6a"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_kswapd_opt.ko",
+      "size": 39160,
+      "sha256": "22b7d3727609077ee27abb03fa6007de98ba625957b7902bc34c8d67816bc239"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_mapped_protect.ko",
+      "size": 35704,
+      "sha256": "883703954ee9944554feeb042c2151fa95c1bf3976a17a847a216e8ebf95edfc"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_memleak_detect.ko",
+      "size": 129016,
+      "sha256": "fc46c4506cc8b59346a5e07a41c17b4bbca57da6cec38870e2eb938936f60c5a"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_midas.ko",
+      "size": 75400,
+      "sha256": "73a2cb22b0aef5b34329c361cc8d3df506d1e019a7e13bbd19a02a10304b3cb2"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_mm_osvelte.ko",
+      "size": 110520,
+      "sha256": "3eba18949f01098e6578037e19feaed531cde2e492251937ce9c8abf75de147c"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_mxm_down.ko",
+      "size": 50616,
+      "sha256": "8893b4ecae6735b5ba7bda96f0170592f5f3c4ecb6218e5d512525ccf89d4cef"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_mxm_up.ko",
+      "size": 50600,
+      "sha256": "5bfbbae0716f66905818bcf2f03cfb37036627f7a0d456f4936e0e74d2acf80d"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_pcppages_opt.ko",
+      "size": 11248,
+      "sha256": "a1c85144a89943400f8d6060e44c65f68b7529874cc1c2a75adec839a0aeb662"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_proactive_compact.ko",
+      "size": 24256,
+      "sha256": "c3099905852cfd54c561b843bb7a9b482fb4a5727249b3f9269ef5d6b7e1ff12"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_rfcablemonitor.ko",
+      "size": 32840,
+      "sha256": "737a8b68c0c640be27e5540e6dd17037f669b3b0303c8db538f968f87b366051"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_sched_assist.ko",
+      "size": 279312,
+      "sha256": "91472d607fb0bb5ed5ea22cdd42eb3b74368ee0dbcbb91dca0963b50a3cd6859"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_sensor_feedback.ko",
+      "size": 58528,
+      "sha256": "30744101a77b838c85c911aa7a5d0ef6e656822e3e38b7ec2879681d9d96cbb4"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_sigkill_diagnosis.ko",
+      "size": 16896,
+      "sha256": "3927cbff97cc39f93057774bd6dffe19698200882ef4791654d76c1293a6543c"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_task_cpustats.ko",
+      "size": 29144,
+      "sha256": "8df96ad0e40b35e7e9f0ab21e4155c40bf17b479f937630bcbfaab81d20a70f5"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_task_load.ko",
+      "size": 33856,
+      "sha256": "9f31daa6d759af183f9c149051ce93e7b9aa11e91635d705eafccb91e1d20f4c"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_task_sched.ko",
+      "size": 59872,
+      "sha256": "4720a557ab70215c594640edd80d49015040d6955a24b7c544ce7dcc4a7b788d"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tp_comon.ko",
+      "size": 710920,
+      "sha256": "f496ef4a4955394e1f8041de7a40b83fec6f39f6163a1cb7fc1e58d5730ea645"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tp_custom.ko",
+      "size": 21968,
+      "sha256": "49b2ba6f7dc9c334468cb2fb0bcdbe49f7d5ebbe7e26be562ad72982f4944ff8"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tp_focal_common.ko",
+      "size": 59656,
+      "sha256": "08ae381a1db0cb374bc8309a345e1e649308f5b33045d1c83b7bab45f81a62f9"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tp_ft3658u.ko",
+      "size": 163432,
+      "sha256": "c9948afabfb39168e8eec33822ab4f9abaa9972149c097bdd4ffbfda77158e70"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tp_goodix_comnon.ko",
+      "size": 42288,
+      "sha256": "8d59e1c5b4f14ae43a07c4f3984e9038c87fdf0230373fe4979214379ea81be9"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tp_gt9966.ko",
+      "size": 222208,
+      "sha256": "c2a094e8af44f6091962e4a910ff3e6d211c3116364ad9959e3def0d5bea04e8"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tp_notify.ko",
+      "size": 12728,
+      "sha256": "c2b766ed9ac1589369bf307e43f7f18cbb4078ec34d67a76b5549b4dca9381bb"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tp_syna_comnon.ko",
+      "size": 62952,
+      "sha256": "0bfde807dbee600ab07ef46886b28f59d90fc5486ffeefbc96dad9144bb32bc3"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tp_tcm_S3910.ko",
+      "size": 263320,
+      "sha256": "64782167bfb2d252004a6f0814f626b9431d74bc2b588ffb9641c752fb49aa62"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tp_tcm_oncell.ko",
+      "size": 234808,
+      "sha256": "1bbde8a6dd3c6ecd5be805684e437761fe2f82f9441b13e98a7332c9533338e6"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_tri_key.ko",
+      "size": 77888,
+      "sha256": "562810d9f37dc5485791e1d28d944642bf2cb8392f9a67d11f158012ec5e765a"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_uxmem_opt.ko",
+      "size": 46824,
+      "sha256": "c54faef694b60f6e19de58dd76cb10a17c54dd6ca9d37ecc943c478ef8ae5c19"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_zram_opt.ko",
+      "size": 38968,
+      "sha256": "644156c90adb4b04fc29404fa19193c4a0a4828f2183e2b16079b6445469602c"
+    },
+    {
+      "path": "ramdisk-modules/oplus_bsp_zsmalloc.ko",
+      "size": 125912,
+      "sha256": "a3fb924bf0e638d586dc5451040f6c314fe6f76bbb44ca5973ef860becac8779"
+    },
+    {
+      "path": "ramdisk-modules/oplus_chg.ko",
+      "size": 6971368,
+      "sha256": "13e77be5181eaa1f5bfbcd4936a9997e3d997cde31468db3cbab727c8e2ea923"
+    },
+    {
+      "path": "ramdisk-modules/oplus_chg_symbol.ko",
+      "size": 13016,
+      "sha256": "8f81f0a57b61620f1bea3d4a9fd6784fe8ed5c8b34026cd3ab1d0bec26f2b4a2"
+    },
+    {
+      "path": "ramdisk-modules/oplus_chg_v2.ko",
+      "size": 6715128,
+      "sha256": "93e1f115b9e7ac9d886ef8421223a7da0e0af7f40f3a91e2f2bd2d67a6189834"
+    },
+    {
+      "path": "ramdisk-modules/oplus_connectivity_routerboost.ko",
+      "size": 22320,
+      "sha256": "3e69a35af94f6dd71af66151035c2dd2792a13f9bd212bbea2b645bd81fb61df"
+    },
+    {
+      "path": "ramdisk-modules/oplus_connectivity_sla.ko",
+      "size": 34000,
+      "sha256": "ac1e852fda085a4090764bdf3ec20e0ea502d44b1558d913fadfac366ab546a1"
+    },
+    {
+      "path": "ramdisk-modules/oplus_data_module.ko",
+      "size": 548672,
+      "sha256": "f607bcd3d6364fa0789e829b9e424e0807313af2062616ae36635ab4bb530d8c"
+    },
+    {
+      "path": "ramdisk-modules/oplus_dns_hook.ko",
+      "size": 32032,
+      "sha256": "21c8335083772b4afb71542cb92c9d20c12084a8da7038c6544cd8207a473a57"
+    },
+    {
+      "path": "ramdisk-modules/oplus_fdleak_check.ko",
+      "size": 31656,
+      "sha256": "d2eb58fff1a14e64e6abace9bcf7efe8561b7b93da5135de93d1b28e83da36a1"
+    },
+    {
+      "path": "ramdisk-modules/oplus_fp_common.ko",
+      "size": 35936,
+      "sha256": "1d279ce6c0eb00999e66ed43c33c874c2ed11a53b9c1b4a2bb34eb8369a69342"
+    },
+    {
+      "path": "ramdisk-modules/oplus_ftm_mode.ko",
+      "size": 10224,
+      "sha256": "87c06bd9c16302619aff83a92a960d4c44ae4086bd903c69599a2cdd2791baf1"
+    },
+    {
+      "path": "ramdisk-modules/oplus_game_first.ko",
+      "size": 24320,
+      "sha256": "0075a45cc9f41e6293be98eb00f2397197883ec84635f35de743df66ffb547eb"
+    },
+    {
+      "path": "ramdisk-modules/oplus_gpio.ko",
+      "size": 40432,
+      "sha256": "4207391459922107e59b3665d6e81e59dd9a789c148343d8cfd7d0305d341eb8"
+    },
+    {
+      "path": "ramdisk-modules/oplus_hans.ko",
+      "size": 48584,
+      "sha256": "eeeae95089a0ecb5bb3fb511c1e57385fa8088d14277ad345fc242190ebd6ab1"
+    },
+    {
+      "path": "ramdisk-modules/oplus_ipa_thermal.ko",
+      "size": 67728,
+      "sha256": "92c9f42e5eeec34ab84621ced5f861fd5f13f54b1a30af2767caf30d58bbe8c1"
+    },
+    {
+      "path": "ramdisk-modules/oplus_kmsg_wb.ko",
+      "size": 28728,
+      "sha256": "d26202bcfaa5107a1bfd25614078e2ebcb50bdacfe8ba678d56c24387ba5f516"
+    },
+    {
+      "path": "ramdisk-modules/oplus_locking_strategy.ko",
+      "size": 121128,
+      "sha256": "44e805b02c341f498f25679be39879d730208acb10da6a8bc46471607f109f7c"
+    },
+    {
+      "path": "ramdisk-modules/oplus_mdmfeature.ko",
+      "size": 28512,
+      "sha256": "f7c7d10914684457a28c929ed1b90e104ceeecb1e93041530979e55308ec2c74"
+    },
+    {
+      "path": "ramdisk-modules/oplus_mdmrst.ko",
+      "size": 24712,
+      "sha256": "4dd4aaea1a191701590148783e08bf740fec8bb591594c59e65d49cdc0345932"
+    },
+    {
+      "path": "ramdisk-modules/oplus_mm_kevent.ko",
+      "size": 24256,
+      "sha256": "fa7ba116925cda1f92b17624531ed3313b262602eeb0d84206b6670ac0e22b04"
+    },
+    {
+      "path": "ramdisk-modules/oplus_mm_kevent_fb.ko",
+      "size": 41256,
+      "sha256": "267e8abd73eee02c9587e10bb4ac0437529a45b1404ed55aae8cbc0f42017ef0"
+    },
+    {
+      "path": "ramdisk-modules/oplus_network_linkpower_module.ko",
+      "size": 71216,
+      "sha256": "93940ebc7b80bdd0ff21ed0d973fd3567842db2259c8e0cedfeae6728e686b02"
+    },
+    {
+      "path": "ramdisk-modules/oplus_networks_tuning.ko",
+      "size": 62480,
+      "sha256": "bf1914683d886629f31d3c27807c6ae6b8050fab468bb59f154a39f9c3b08098"
+    },
+    {
+      "path": "ramdisk-modules/oplus_nfc.ko",
+      "size": 20768,
+      "sha256": "9a86034bc5131d319364130b9a83592c50bd96b286f82526415a8cd99781ca6a"
+    },
+    {
+      "path": "ramdisk-modules/oplus_omrg.ko",
+      "size": 89488,
+      "sha256": "339308c845935bd5af5e2c7d2503bacdc488e247b1e085712dc76a40f84e45f5"
+    },
+    {
+      "path": "ramdisk-modules/oplus_phoenix.ko",
+      "size": 58496,
+      "sha256": "d07b646a946aafb36b74fac4d89c5d5887958f03b0e52f56d4fc6dc282ddea5e"
+    },
+    {
+      "path": "ramdisk-modules/oplus_pmicwd.ko",
+      "size": 63688,
+      "sha256": "2fd4869d008af696c6fa0e277d4caa01f0880ccf4ae05a062e13e5ab544287a6"
+    },
+    {
+      "path": "ramdisk-modules/oplus_procs_load.ko",
+      "size": 19592,
+      "sha256": "47131d946aada7c9ad35abfcdaa9a0646ee0658fdc4bea3c44e903728c4d4876"
+    },
+    {
+      "path": "ramdisk-modules/oplus_project.ko",
+      "size": 39768,
+      "sha256": "fd308ff10a027724da973c4b88c5b3eb3eb7b6e0083962ad4236d18cefe5eba1"
+    },
+    {
+      "path": "ramdisk-modules/oplus_qr_scan.ko",
+      "size": 29312,
+      "sha256": "5f6f8b3d2785c6d5b2c923be9dc646d33898d7ca775bb9b998e15ee1d11ce597"
+    },
+    {
+      "path": "ramdisk-modules/oplus_saupwk.ko",
+      "size": 13176,
+      "sha256": "9ca7002de2b6411b9a92b3d0c012546e2aa3303cd32124dff798d269dc58b01c"
+    },
+    {
+      "path": "ramdisk-modules/oplus_schedinfo.ko",
+      "size": 292520,
+      "sha256": "d04aa7b951e1d25ef2a19d77864ae251e27b78d74b937ee0824e64d9c29a00f9"
+    },
+    {
+      "path": "ramdisk-modules/oplus_score.ko",
+      "size": 69944,
+      "sha256": "05b51b29cb194e936b4b20c92a640d9b0e58bc151101c7c98c5c27f957b7e562"
+    },
+    {
+      "path": "ramdisk-modules/oplus_secure_common.ko",
+      "size": 41536,
+      "sha256": "969887648c7578dd625f7bd9131c9c5f71fe78ccdb3da9bc1f41a888d9eea0bd"
+    },
+    {
+      "path": "ramdisk-modules/oplus_secure_harden.ko",
+      "size": 31032,
+      "sha256": "5acb61199d78625c31e5db9fb9d6b46d1c265ef15965ae485c95db1f1710597c"
+    },
+    {
+      "path": "ramdisk-modules/oplus_security_guard.ko",
+      "size": 31872,
+      "sha256": "a016546d4bdd6b77828d535b8e7bd83df2dd5f35ce3d8158a7b2e218ffff6c15"
+    },
+    {
+      "path": "ramdisk-modules/oplus_security_keventupload.ko",
+      "size": 16080,
+      "sha256": "b87035f04375936c816fe6adb174504804941224fa247b584b39d7586925b2c1"
+    },
+    {
+      "path": "ramdisk-modules/oplus_sensor.ko",
+      "size": 97992,
+      "sha256": "b80d906ee4d3e2bf3577c7477d6089bbd81ba8d7473a36e2cf91df656e6081ce"
+    },
+    {
+      "path": "ramdisk-modules/oplus_stability_helper.ko",
+      "size": 14320,
+      "sha256": "f89759a892ca55e8f5060944424e78feeba54b7f49a4ac4afb1bf395ac3e3dcd"
+    },
+    {
+      "path": "ramdisk-modules/oplus_stats_calc.ko",
+      "size": 24312,
+      "sha256": "ebf61a4011078f1a797a50b2b07aa2dcf8c0b0e47589a447c2016474934149ab"
+    },
+    {
+      "path": "ramdisk-modules/oplus_storage_log.ko",
+      "size": 25680,
+      "sha256": "5f3ab27ca2c2b4c688eafc9b165f81abcab8143c3c0c5d330c8208d6dd0609c6"
+    },
+    {
+      "path": "ramdisk-modules/oplus_subsys_sleep_monitor.ko",
+      "size": 45024,
+      "sha256": "e512c1c57f66176e37ff88a5a1772d6ae58c9e07e8580eeffeb3dc8810cad801"
+    },
+    {
+      "path": "ramdisk-modules/oplus_theia.ko",
+      "size": 124440,
+      "sha256": "2ce37a679f4bf00c5b271e6e783d2f0827df80bd682c8698a89f7e73f483eed6"
+    },
+    {
+      "path": "ramdisk-modules/oplus_uprobe.ko",
+      "size": 69144,
+      "sha256": "aa2dfe05b25acf2203f4c3ab2344deebce82c07aa907b5d6b8b30b34bed70468"
+    },
+    {
+      "path": "ramdisk-modules/oplus_wificapcenter.ko",
+      "size": 30592,
+      "sha256": "e464e28bb335726f1fd259f846ee559abaec98972802df21bcab2c51b1302a43"
+    },
+    {
+      "path": "ramdisk-modules/oplus_wifismartantenna.ko",
+      "size": 24784,
+      "sha256": "9403d155bb64119e52c290c9c8db0940affc9d307a0a8334b71930659a815b79"
+    },
+    {
+      "path": "ramdisk-modules/oplusboot.ko",
+      "size": 15040,
+      "sha256": "25b36d79fb04e1a0eed75b273fdd782d61c8b1a0174f228c02f4b2deb056998d"
+    },
+    {
+      "path": "ramdisk-modules/ordump.ko",
+      "size": 13344,
+      "sha256": "51db59f90dde9d29469a5dd73401b522d00c633082b3e30cf0d449933b170f8e"
+    },
+    {
+      "path": "ramdisk-modules/panel_event_notifier.ko",
+      "size": 15832,
+      "sha256": "f4e469607265cdf0149945b215a6e53c7f2fc9e02d2a77572750b09a746754fb"
+    },
+    {
+      "path": "ramdisk-modules/pci-edma.ko",
+      "size": 54152,
+      "sha256": "dd136afea828a06dbb0ee99ecc77b6db254108f98cea6f238441931c07a8ace6"
+    },
+    {
+      "path": "ramdisk-modules/pci-msm-drv.ko",
+      "size": 512664,
+      "sha256": "f40e2278a1115a7f182cf650bc4c36bb7423aefce9586832bba1b7e26ce4d904"
+    },
+    {
+      "path": "ramdisk-modules/pdr_interface.ko",
+      "size": 32104,
+      "sha256": "6e7ca458bf8e241e383472494ce90e555c923824d20dcf249dc316103ce9ede2"
+    },
+    {
+      "path": "ramdisk-modules/phoenix_reboot_speed.ko",
+      "size": 42872,
+      "sha256": "8f246bfed6652195cf26e1c232a15e10da6a023128239ad4c0e04bc38d0bb321"
+    },
+    {
+      "path": "ramdisk-modules/phy-generic.ko",
+      "size": 24712,
+      "sha256": "837d174e4669ad8472877405875959be52108c9f46fb2470c980dfae626bee39"
+    },
+    {
+      "path": "ramdisk-modules/phy-msm-snps-eusb2.ko",
+      "size": 47512,
+      "sha256": "6e522fc8f14c8d2c86861516e75fa418b9459e20c240105f9ad3f7c8973dc47c"
+    },
+    {
+      "path": "ramdisk-modules/phy-msm-snps-hs.ko",
+      "size": 60072,
+      "sha256": "65e4962f34d6a88885c7baba6461b8c23b2929f141d4c80ea5d81bd00da052ca"
+    },
+    {
+      "path": "ramdisk-modules/phy-msm-ssusb-qmp.ko",
+      "size": 47184,
+      "sha256": "7a2df4c027d948bb0462a258690cd5aa73a768d583d05733feb798c411b6a4a6"
+    },
+    {
+      "path": "ramdisk-modules/phy-qcom-emu.ko",
+      "size": 17184,
+      "sha256": "158bf9c15513c57f0def00bd5ebef56195c760cbd2b558f40a85889d1635a80f"
+    },
+    {
+      "path": "ramdisk-modules/phy-qcom-ufs-qmp-14nm.ko",
+      "size": 21496,
+      "sha256": "b18401fbd949c128b4d392222392540ae44c7801ef2e28f6e05382c3a7556245"
+    },
+    {
+      "path": "ramdisk-modules/phy-qcom-ufs-qmp-v3.ko",
+      "size": 26112,
+      "sha256": "7192daebd20242e92138c19ae98546257f9388666e70e420bd9ebf4754223a76"
+    },
+    {
+      "path": "ramdisk-modules/phy-qcom-ufs-qmp-v4-anarok.ko",
+      "size": 30320,
+      "sha256": "0a679aa077faf6929566df7c4a797d3b0d2cd03ba1e5ff5439f65543e89ad2f7"
+    },
+    {
+      "path": "ramdisk-modules/phy-qcom-ufs-qmp-v4-cape.ko",
+      "size": 29168,
+      "sha256": "48dc80a25b7454b7fb4018ab2d818986c9f861479ec556930590d536332b008a"
+    },
+    {
+      "path": "ramdisk-modules/phy-qcom-ufs-qmp-v4-diwali.ko",
+      "size": 30320,
+      "sha256": "92a96ea738840bb95c504b3794d1edd8b292aedff7dbe3659a4c4ab3039aeada"
+    },
+    {
+      "path": "ramdisk-modules/phy-qcom-ufs-qmp-v4-lahaina.ko",
+      "size": 30320,
+      "sha256": "d75e07e33dbacc87b17c96ec7c545e39c2cecd3711a8bdff51905b0c913199de"
+    },
+    {
+      "path": "ramdisk-modules/phy-qcom-ufs-qmp-v4-parrot.ko",
+      "size": 30320,
+      "sha256": "f4689137ff29a5b7202298f63ff3ccc3b9ed250d3b452631dc90a10a55879fb6"
+    },
+    {
+      "path": "ramdisk-modules/phy-qcom-ufs-qmp-v4-waipio.ko",
+      "size": 30320,
+      "sha256": "06014ab96a5cf615d10884bb189cee420e97ac9936bbbcc34f68e50caa3e9b14"
+    },
+    {
+      "path": "ramdisk-modules/phy-qcom-ufs.ko",
+      "size": 42256,
+      "sha256": "0a89c057ba189c3a75df53b159186b44c47175ca7c350b13c5ce244151be8236"
+    },
+    {
+      "path": "ramdisk-modules/pinctrl-cape.ko",
+      "size": 175464,
+      "sha256": "e0dbbd853fca606d1075b01c180470cb71cf19eb758d90ca68e85875ea00fa01"
+    },
+    {
+      "path": "ramdisk-modules/pinctrl-diwali.ko",
+      "size": 145008,
+      "sha256": "a7be3b2079ade1bc8409a652bff59294f8ec927e36a3dba040a75720515c6370"
+    },
+    {
+      "path": "ramdisk-modules/pinctrl-msm.ko",
+      "size": 83608,
+      "sha256": "f15ac5b53d5347ac1e874f93d1992edbb6b65ce73d880d5df0190be8637f8d0e"
+    },
+    {
+      "path": "ramdisk-modules/pinctrl-spmi-gpio.ko",
+      "size": 55440,
+      "sha256": "1d11b390f7b074e22124dd3c182b52e8158ce3d2529cefe7e7c46163033b1623"
+    },
+    {
+      "path": "ramdisk-modules/pinctrl-spmi-mpp.ko",
+      "size": 36648,
+      "sha256": "44751421fb706a58f821bf96c5cc163bf0539bea5120c15e44f93eff1e6b5f38"
+    },
+    {
+      "path": "ramdisk-modules/pinctrl-waipio.ko",
+      "size": 175408,
+      "sha256": "3da4083607fd9f9d8ffaa53459a06fe392de2956949b891df3e89a24acee42c3"
+    },
+    {
+      "path": "ramdisk-modules/plh_scmi.ko",
+      "size": 11512,
+      "sha256": "9b77f50be65d158bf70442d53ca7782ee313facd0fcd33cc8694e9c84dc591de"
+    },
+    {
+      "path": "ramdisk-modules/plh_vendor.ko",
+      "size": 14536,
+      "sha256": "8ceee34d6869d24c6435409cde774c368d8c9cc790f1af14374a7b1e8744f0e8"
+    },
+    {
+      "path": "ramdisk-modules/pm8941-pwrkey.ko",
+      "size": 24448,
+      "sha256": "bf35c57dbd5ddd4ddb80eff47c7bf67b347292b3410a3f13a61cda3a62c0af1b"
+    },
+    {
+      "path": "ramdisk-modules/pmic-pon-log.ko",
+      "size": 28944,
+      "sha256": "966dd9614c37ef869ff3f845297c17d16c8864e3a29aa11bd786067085899c7b"
+    },
+    {
+      "path": "ramdisk-modules/pmic_glink.ko",
+      "size": 41880,
+      "sha256": "12f71a9a22d7b204e6df026ff5c0d8a7e3eb26f9bd2153666d4307b65f1d9c37"
+    },
+    {
+      "path": "ramdisk-modules/pmic_monitor.ko",
+      "size": 49072,
+      "sha256": "04e8816f9ebfb2f02a4c49b702a1ff379427593d9788e7bbebd60f81b260bc3d"
+    },
+    {
+      "path": "ramdisk-modules/pmu_scmi.ko",
+      "size": 11512,
+      "sha256": "a6c7a61791d1f8324f2c8a50489276c402e85e62c6674dc3326fdf0c614aa3f2"
+    },
+    {
+      "path": "ramdisk-modules/pmu_vendor.ko",
+      "size": 13568,
+      "sha256": "1de933502a0ff460b9e063facae0bb51ae81f5822c1ef9a1ee68dd8edccc5023"
+    },
+    {
+      "path": "ramdisk-modules/policy_engine.ko",
+      "size": 19800,
+      "sha256": "7b06906f2d6cc2f2584d780718732dc87f1a19f12cc5b2d81480f2fb204480ba"
+    },
+    {
+      "path": "ramdisk-modules/proxy-consumer.ko",
+      "size": 23144,
+      "sha256": "b5bf65ddcbcb147ae88320c898f4704a3ec30c72ac1da113dbe098f784f7a368"
+    },
+    {
+      "path": "ramdisk-modules/pwm-qti-lpg.ko",
+      "size": 55992,
+      "sha256": "ddce5be9abde6697fd15a08bebbf50e5e48e005390baa42f00161d6a1cfe20b1"
+    },
+    {
+      "path": "ramdisk-modules/qbt_handler.ko",
+      "size": 63456,
+      "sha256": "ebc161705b38d7d6e1a196665812376e56fbdc783a6b9c8320dc66acc13b83b0"
+    },
+    {
+      "path": "ramdisk-modules/qce50.ko",
+      "size": 178736,
+      "sha256": "8bb44093d0aba55d820ac30c859606906d9e75e8c5b1e03bb19050a2925321ad"
+    },
+    {
+      "path": "ramdisk-modules/qcedev-mod.ko",
+      "size": 523872,
+      "sha256": "0c30eae78e64823e13d3de72755a00f57cbc9d1a4452e5ffffe847b01d7adf01"
+    },
+    {
+      "path": "ramdisk-modules/qcom-cpufreq-hw-debug.ko",
+      "size": 22080,
+      "sha256": "a33cf060dcb8e3d64a9d627c47ddb6e7f690097d24078ef326c9c1179a2473e5"
+    },
+    {
+      "path": "ramdisk-modules/qcom-cpufreq-hw.ko",
+      "size": 50776,
+      "sha256": "e2ada6ab5b57caa253ba5f15615158dd34c050044a31d92104a5332f91deba6b"
+    },
+    {
+      "path": "ramdisk-modules/qcom-dcvs.ko",
+      "size": 115976,
+      "sha256": "ebda9bf5c85462632ed629966337c618be8a454a3f729b48c1e1599673df7dd7"
+    },
+    {
+      "path": "ramdisk-modules/qcom-dload-mode.ko",
+      "size": 27000,
+      "sha256": "670a6948b218d74850b293ff2cdd36029d91e1106c49d86248465263f19cb0ac"
+    },
+    {
+      "path": "ramdisk-modules/qcom-hv-haptics.ko",
+      "size": 174616,
+      "sha256": "3635efda64f715f1d644d5e4b96d5f9bafba1acab48b821ab627bc89659a3152"
+    },
+    {
+      "path": "ramdisk-modules/qcom-i2c-pmic.ko",
+      "size": 35936,
+      "sha256": "b7acf7d463e3dd6361dd195a4d8b4b664904246aa742981e8d11a91657eca7b3"
+    },
+    {
+      "path": "ramdisk-modules/qcom-pdc.ko",
+      "size": 34144,
+      "sha256": "777df58ed32a3634ba1e612105cfa5a13fffbc3507944caee51ec5d66c62b038"
+    },
+    {
+      "path": "ramdisk-modules/qcom-pmu-lib.ko",
+      "size": 61584,
+      "sha256": "13e4276f0d1c8a2c47ee66674447f4bb9f0168e4de58d406dd90935dc899e502"
+    },
+    {
+      "path": "ramdisk-modules/qcom-pon.ko",
+      "size": 14496,
+      "sha256": "eba69b5910172ee5775d4722846da8efb922b1cdf5a10377c987c9924e65af6e"
+    },
+    {
+      "path": "ramdisk-modules/qcom-reboot-reason.ko",
+      "size": 14672,
+      "sha256": "7c11e5f9d0e1a2c73c77218fcf4dcae38342f7c5e0b403066358eb0d48d9073e"
+    },
+    {
+      "path": "ramdisk-modules/qcom-scm.ko",
+      "size": 205664,
+      "sha256": "535c05eeabbddc7acc486c46864bbeadb013abde398f5fe18a48e0b43a1caf81"
+    },
+    {
+      "path": "ramdisk-modules/qcom-spmi-adc5.ko",
+      "size": 52056,
+      "sha256": "a50efb40fdeda18089cb42d60079883e4516e6df9b3b20d3afbb66ea0d3557eb"
+    },
+    {
+      "path": "ramdisk-modules/qcom-spmi-pmic.ko",
+      "size": 20416,
+      "sha256": "877b6f128fa090f6046b06ac71411d26db42fdf74c4b912717efb7c0f8296506"
+    },
+    {
+      "path": "ramdisk-modules/qcom-spmi-temp-alarm.ko",
+      "size": 29104,
+      "sha256": "761b6f87d4c2111405e349a595ec57dfdd08d632a0b7022f30ec75b7782503aa"
+    },
+    {
+      "path": "ramdisk-modules/qcom-vadc-common.ko",
+      "size": 29048,
+      "sha256": "38798bcccd76cc71937f052716138208f40975602de0b3fc5690d5e6cb44ec4e"
+    },
+    {
+      "path": "ramdisk-modules/qcom_aoss.ko",
+      "size": 52352,
+      "sha256": "49f9c175dba50ea28f6697ffb287ab0c9238005808938e825e20b26668e0a349"
+    },
+    {
+      "path": "ramdisk-modules/qcom_cpu_vendor_hooks.ko",
+      "size": 24664,
+      "sha256": "16a575d07c79843e38177f92f9757e02983569f6450fc9835ef95fe454e06727"
+    },
+    {
+      "path": "ramdisk-modules/qcom_cpuss_sleep_stats.ko",
+      "size": 28392,
+      "sha256": "c04543d8559f209e536972f8816c0ae5fec5c218c3ee551c8ac375289aee4a61"
+    },
+    {
+      "path": "ramdisk-modules/qcom_dma_heaps.ko",
+      "size": 159024,
+      "sha256": "e433b767676b8c15ee791d618538f1dcc1d7e892f29fb3e868a12889b6c0b94d"
+    },
+    {
+      "path": "ramdisk-modules/qcom_edac.ko",
+      "size": 20376,
+      "sha256": "0652592ddc4714ca61e35b8a8d34cb4fb7c33117b04aee08831f1ff474efb8e1"
+    },
+    {
+      "path": "ramdisk-modules/qcom_enhance_watchdog.ko",
+      "size": 22440,
+      "sha256": "9037d552960768c3559911000409f13ee9085d887561db468489681723a005a3"
+    },
+    {
+      "path": "ramdisk-modules/qcom_esoc.ko",
+      "size": 181472,
+      "sha256": "21a1805b40a8a4afc37e7b1f40487d0755160fab619d5d66c6b467503954823b"
+    },
+    {
+      "path": "ramdisk-modules/qcom_gic_intr_routing.ko",
+      "size": 41792,
+      "sha256": "b7006af57b1f9139a76772076202dd13016fc4872a2ff26126160b96d68f0ea4"
+    },
+    {
+      "path": "ramdisk-modules/qcom_glink.ko",
+      "size": 87536,
+      "sha256": "363d5e472248482cfe4ed545eef5122d87df3a423df612018b866d3083000476"
+    },
+    {
+      "path": "ramdisk-modules/qcom_glink_smem.ko",
+      "size": 20088,
+      "sha256": "9757b348c3d11409cb77fc17d009e6a2734ac6be906214994ed87eacba479f02"
+    },
+    {
+      "path": "ramdisk-modules/qcom_glink_spss.ko",
+      "size": 20328,
+      "sha256": "0f261e318404a8e6d9b9789a0614cee29639ba27a9539c05ff01bc854c760b68"
+    },
+    {
+      "path": "ramdisk-modules/qcom_hwspinlock.ko",
+      "size": 17080,
+      "sha256": "08302420b934d1db200428e13dac29416657e5b159d583cbb5002dbb1c031f8a"
+    },
+    {
+      "path": "ramdisk-modules/qcom_iommu_debug.ko",
+      "size": 97048,
+      "sha256": "e8a13b8bcd07dbb2b8519cf90cf1c5fa830767b51f374e819bfe99c66068060c"
+    },
+    {
+      "path": "ramdisk-modules/qcom_iommu_util.ko",
+      "size": 122496,
+      "sha256": "6bd7db9aec4945a7c1a1663090f52c52aaa835c1792d725b4b5433127c1a5f31"
+    },
+    {
+      "path": "ramdisk-modules/qcom_ipc_lite.ko",
+      "size": 15712,
+      "sha256": "66d30b914de21e8c268752cd11c2fbc0ae48db17a0a04c7244b3e64ceef83ae8"
+    },
+    {
+      "path": "ramdisk-modules/qcom_ipc_logging.ko",
+      "size": 59088,
+      "sha256": "06ab168eb59621a766f4823804879f508e615ef6dfcf5a140d1f696df6ce6f46"
+    },
+    {
+      "path": "ramdisk-modules/qcom_ipcc.ko",
+      "size": 26600,
+      "sha256": "fad5b63ae3b6d044cf5b8a8a7dccdbcd2c0639c3dee235a691f362b83ebb6d5e"
+    },
+    {
+      "path": "ramdisk-modules/qcom_llcc_pmu.ko",
+      "size": 27776,
+      "sha256": "b1077e164fa37001b9bf0702947f8d8cf8894ac1e26896d87edbb61ffb5bc1be"
+    },
+    {
+      "path": "ramdisk-modules/qcom_logbuf_vendor_hooks.ko",
+      "size": 22576,
+      "sha256": "b9cc28c0e43eb1fb51f33a401f197e832878f8f6fbb6c3caec1d98d305c77cae"
+    },
+    {
+      "path": "ramdisk-modules/qcom_lpm.ko",
+      "size": 100520,
+      "sha256": "f6a250662a9ae5a3941ed84caab71973e841ff05f249719093c847d5235d934e"
+    },
+    {
+      "path": "ramdisk-modules/qcom_pil_info.ko",
+      "size": 18744,
+      "sha256": "db8f241adc1bbca1c3b7ad4d0a7fd89fb19612706ea441329f57c0e62e8b3382"
+    },
+    {
+      "path": "ramdisk-modules/qcom_pm8008-regulator.ko",
+      "size": 47048,
+      "sha256": "0ce7ca093f40537b501c302b6e81e0f68e235efd58d0a35200782e2f78063f4a"
+    },
+    {
+      "path": "ramdisk-modules/qcom_q6v5.ko",
+      "size": 43224,
+      "sha256": "0e46be14552ddf0c423c6196df66d033bfb42d6b6dc2d47458c6446e7ba6617a"
+    },
+    {
+      "path": "ramdisk-modules/qcom_q6v5_pas.ko",
+      "size": 89600,
+      "sha256": "1a61c1380c53174076a12b7a8abf4c49fe248126289ca8286155319f8812b4d6"
+    },
+    {
+      "path": "ramdisk-modules/qcom_ramdump.ko",
+      "size": 24976,
+      "sha256": "9af22587c6ef66d202ea2018f912a9f7af07ffb0db533d358d6cddd0c1af797a"
+    },
+    {
+      "path": "ramdisk-modules/qcom_rimps.ko",
+      "size": 18872,
+      "sha256": "bf065d39bbca550e0e46ca9a0ffdc0b09db8fa6ed095f160c1967a72f74f3279"
+    },
+    {
+      "path": "ramdisk-modules/qcom_rpmh.ko",
+      "size": 93792,
+      "sha256": "e2939208860f0317a2e1c6a987733aac5591ba5d680e6fd6298bd74090ce5dff"
+    },
+    {
+      "path": "ramdisk-modules/qcom_smd.ko",
+      "size": 43576,
+      "sha256": "98b246cb327dc2a867ca111b6a44d928e8dcbe3862712dd4a3179b6ac3f0ab71"
+    },
+    {
+      "path": "ramdisk-modules/qcom_soc_wdt.ko",
+      "size": 20264,
+      "sha256": "2b24eeaf12b9a3843a681121d455a84641a12a3c20aecc355a89070e69ffa08f"
+    },
+    {
+      "path": "ramdisk-modules/qcom_spss.ko",
+      "size": 41904,
+      "sha256": "f5135150ba84e1cb0786f47b643e79abfd134879dd77560864e058314da7108a"
+    },
+    {
+      "path": "ramdisk-modules/qcom_sync_file.ko",
+      "size": 37160,
+      "sha256": "0e444aa4e0e4325a8d6be0ffd7d60d60ec3fda1fd37826d27ff1707f76bea637"
+    },
+    {
+      "path": "ramdisk-modules/qcom_sysmon.ko",
+      "size": 46120,
+      "sha256": "79f6e154df2cfccb8eaa06b4a542aab55b64e6860682bda6f233692acf99fe13"
+    },
+    {
+      "path": "ramdisk-modules/qcom_tsens.ko",
+      "size": 80048,
+      "sha256": "8e56d3ec6394b49d250b2564161d3ea52dbefd9a51fbbb8b630d023133d8a714"
+    },
+    {
+      "path": "ramdisk-modules/qcom_wdt_core.ko",
+      "size": 45872,
+      "sha256": "cf1b128a787389f0382688ae0010fd168ee331c122fd9a604f0e96da3c64d002"
+    },
+    {
+      "path": "ramdisk-modules/qdss_bridge.ko",
+      "size": 45120,
+      "sha256": "f360544f5dc4f591666ddf64146ebaaf8b749a3d953e23767d20d88b8370f78c"
+    },
+    {
+      "path": "ramdisk-modules/qfprom-sys.ko",
+      "size": 15264,
+      "sha256": "55bb2905a1a98378b5373f8b55c80bb6f39b82badf449b1fc33fcc0465b0902d"
+    },
+    {
+      "path": "ramdisk-modules/qmi_helpers.ko",
+      "size": 40944,
+      "sha256": "365473f2e79c3312f0b771a2579048b3bca02965490001969182bda515111087"
+    },
+    {
+      "path": "ramdisk-modules/qmp-debugfs-client.ko",
+      "size": 18216,
+      "sha256": "fc51afd3da1914287856bb7fae37c05c58f7907c64eeb9c751c757578a278844"
+    },
+    {
+      "path": "ramdisk-modules/qnoc-diwali.ko",
+      "size": 189232,
+      "sha256": "c01b6412e66c6543ebdd00e8d539b34cd1be743eec4e516c20e85b2c5dac3848"
+    },
+    {
+      "path": "ramdisk-modules/qnoc-parrot.ko",
+      "size": 201072,
+      "sha256": "99b5fbd267dba8c96c4fa8e9bfb0ffcf499b0d5338542b793aa21308b7764398"
+    },
+    {
+      "path": "ramdisk-modules/qnoc-qos.ko",
+      "size": 10552,
+      "sha256": "81deb45774f40778e2c9f409676b95f2c9d28143fe8783e66750b08e9f591219"
+    },
+    {
+      "path": "ramdisk-modules/qnoc-waipio.ko",
+      "size": 201152,
+      "sha256": "3e5f4886c671622c9fc22c95011726c3578405b2c033244cde4b081e7acb6ad4"
+    },
+    {
+      "path": "ramdisk-modules/qpnp-amoled-regulator.ko",
+      "size": 27304,
+      "sha256": "e2c667feb22045856a77f37535ecb79cb4d7cd4e907e77985ccbd135c48e1bdc"
+    },
+    {
+      "path": "ramdisk-modules/qpnp-pbs.ko",
+      "size": 23488,
+      "sha256": "91b780fc0490f3c0f1d8a521823f9c729c892845ccb79407ec0bb4924ec056ef"
+    },
+    {
+      "path": "ramdisk-modules/qpnp-power-on.ko",
+      "size": 72760,
+      "sha256": "1d156656ee33b62226d5bbdffe1e3788e7e6bf9962f1c0d94c76c0bf53ba456e"
+    },
+    {
+      "path": "ramdisk-modules/qrtr-gunyah.ko",
+      "size": 29616,
+      "sha256": "b0bdf2f9dd29a4315daab704b2c217d546feb22be0411006c117d112e9c287c3"
+    },
+    {
+      "path": "ramdisk-modules/qrtr-mhi.ko",
+      "size": 18816,
+      "sha256": "0b4729e401b2f2b9620f3f5783776b7be5ae80764f07000f68728decd5843513"
+    },
+    {
+      "path": "ramdisk-modules/qrtr-smd.ko",
+      "size": 16936,
+      "sha256": "371000045e988c4fdcf8eb8f1a8cf7473fb198cf33409c3ee4bdd9ea61b4c600"
+    },
+    {
+      "path": "ramdisk-modules/qrtr.ko",
+      "size": 152864,
+      "sha256": "343de8e1cd0004299fa9d68ae823a71a7da73c3f008342767325316343089e19"
+    },
+    {
+      "path": "ramdisk-modules/qsee_ipc_irq_bridge.ko",
+      "size": 38664,
+      "sha256": "4ba835154a788a438b28a8d93cdbb150e7ca19110635906c89a446b5bb97e71d"
+    },
+    {
+      "path": "ramdisk-modules/qseecom-mod.ko",
+      "size": 735144,
+      "sha256": "fe6483e4e7f8c848affddc3d949f0318c1912e1cfd4be1517242995fe3a47384"
+    },
+    {
+      "path": "ramdisk-modules/qti-adc-tm.ko",
+      "size": 74720,
+      "sha256": "7204bc9a0711dca044f71ddebd23b82b8e6feadbf83673fdc5b304bc4fe001db"
+    },
+    {
+      "path": "ramdisk-modules/qti-fixed-regulator.ko",
+      "size": 19640,
+      "sha256": "55d5ae6c66d92641da13b3550d37f34fb8d1c5bbfcad25086a79b48aac95ab7f"
+    },
+    {
+      "path": "ramdisk-modules/qti-regmap-debugfs.ko",
+      "size": 30416,
+      "sha256": "e91ce8d4ed85f0bf1170f9b304ec7d9f4b30bf6360f6aa9b3377a95bdf197512"
+    },
+    {
+      "path": "ramdisk-modules/qti_amoled_ecm.ko",
+      "size": 37656,
+      "sha256": "cde966d9af4b5275be70d8e04c6e508f0f7ce5146496d8f1defdf428160e6a9b"
+    },
+    {
+      "path": "ramdisk-modules/qti_battery_debug.ko",
+      "size": 38256,
+      "sha256": "8ba91e6b0ac2b5a913c009628c0c1cee43e36ae436aff697965237da29a38c22"
+    },
+    {
+      "path": "ramdisk-modules/qti_cpufreq_cdev.ko",
+      "size": 20752,
+      "sha256": "f8b5a6d17a56333053924e581037ac652fc6b3be2221169b5ca825be8f8fa425"
+    },
+    {
+      "path": "ramdisk-modules/qti_devfreq_cdev.ko",
+      "size": 18272,
+      "sha256": "c7d621da1b4b7654c2738d83f2c6118dd1112692fefb5ec55ed9b7236499096d"
+    },
+    {
+      "path": "ramdisk-modules/qti_qmi_cdev.ko",
+      "size": 40936,
+      "sha256": "6e3f7eb56efd8d7a80e3f9efc14529ca99b2657ead973091460da2f522f4e202"
+    },
+    {
+      "path": "ramdisk-modules/qti_qmi_sensor_v2.ko",
+      "size": 36456,
+      "sha256": "cc14e8de66d054cf9dc07437b61d1a431148d871d1c2ffb2d3328700a6918437"
+    },
+    {
+      "path": "ramdisk-modules/qti_userspace_cdev.ko",
+      "size": 15928,
+      "sha256": "e3c26e8c6a212597a1fe598a2a2b254e80146a0ac492f2f66bcd236bd8aad34c"
+    },
+    {
+      "path": "ramdisk-modules/radio-i2c-rtc6226-qca.ko",
+      "size": 96616,
+      "sha256": "ea887296375c8fa7a33a721ffa35b9886b3fd057867b64077105a97f76bb3cf1"
+    },
+    {
+      "path": "ramdisk-modules/rdbg.ko",
+      "size": 37728,
+      "sha256": "5a86550b968f77313c75f46988476fbd3117d23448d8ce5d38adb40f26768bb1"
+    },
+    {
+      "path": "ramdisk-modules/reboot-mode.ko",
+      "size": 16640,
+      "sha256": "b27d9e679cdbb6fee641b4d17226be5785361185b8ba89192cded21904712e4c"
+    },
+    {
+      "path": "ramdisk-modules/regmap-spmi.ko",
+      "size": 17312,
+      "sha256": "0f57677bec10d7a06c46b0596bf090ef453a5b2748940aeb0f68b31c8fff720e"
+    },
+    {
+      "path": "ramdisk-modules/repeater-i2c-eusb2.ko",
+      "size": 23272,
+      "sha256": "50015f054d886fc71bc65112d1b54eac8933152f8d07e9f084d70867e2630a15"
+    },
+    {
+      "path": "ramdisk-modules/repeater.ko",
+      "size": 16592,
+      "sha256": "dd0ea9a37ba37b5a1b5c4facc2f24bb76819114cde4ffefe7f55917d5a6b554d"
+    },
+    {
+      "path": "ramdisk-modules/rimps_log.ko",
+      "size": 19280,
+      "sha256": "8463507de903de46fe9b41d9d90e706d932bdc4b2cd5381aa0aa889ac4c06a5b"
+    },
+    {
+      "path": "ramdisk-modules/rpmh-regulator.ko",
+      "size": 46280,
+      "sha256": "d019d62a3562dcb783304acc96028c3b4fbbfd81a5743a78244f278f09a63fe3"
+    },
+    {
+      "path": "ramdisk-modules/rproc_qcom_common.ko",
+      "size": 73400,
+      "sha256": "4e1e0467d32d003c8cc08c270f07bfa630c63d77bef8cb9ed91641aaa2ccb665"
+    },
+    {
+      "path": "ramdisk-modules/rq_stats.ko",
+      "size": 16224,
+      "sha256": "6867fa63c367f39896061db7b7c6ee402e4bef9a5984c17aa62e9550e22d90ed"
+    },
+    {
+      "path": "ramdisk-modules/rt-regmap.ko",
+      "size": 70752,
+      "sha256": "66b5692f378b44b9edb9cff761be3e64221e0ff73c98fa6f805f347d8051b55a"
+    },
+    {
+      "path": "ramdisk-modules/rtc-pm8xxx.ko",
+      "size": 27272,
+      "sha256": "3864934464513ef64be5956bd7ac9207bc37c5b36acd67f9ba468059f7899743"
+    },
+    {
+      "path": "ramdisk-modules/saupwk.ko",
+      "size": 10080,
+      "sha256": "3f3cc1b5fa21f40894d92e4e73b5f037cdba3443222ca1f4ab49d87758935102"
+    },
+    {
+      "path": "ramdisk-modules/sched-walt.ko",
+      "size": 740824,
+      "sha256": "00fcf5380ccac472848e965eb5a4b5e6f0b80f1f2f7fcdee2c7b2e28a2276d0f"
+    },
+    {
+      "path": "ramdisk-modules/sdhci-msm.ko",
+      "size": 202888,
+      "sha256": "841e232b8697c8f8e12c8c2c9d1aa43e5671be905d4d5bc439835c38a47bfb0b"
+    },
+    {
+      "path": "ramdisk-modules/sdpm_clk.ko",
+      "size": 23112,
+      "sha256": "120f5c40d1799dffe009a4079706fd9daa1d754f66a3abbc89e500c0eb107e36"
+    },
+    {
+      "path": "ramdisk-modules/secure_buffer.ko",
+      "size": 56392,
+      "sha256": "29d13c5b11e654b26e26c0216adc586712ab3a5dc10acfcbfcbe45f0afe0de74"
+    },
+    {
+      "path": "ramdisk-modules/sensors_ssc.ko",
+      "size": 29936,
+      "sha256": "da704826fa6f4bd06141e594268bdc4a8eb14f640fc63d81c49f4fc550c28173"
+    },
+    {
+      "path": "ramdisk-modules/sg.ko",
+      "size": 154992,
+      "sha256": "2ad3fd71e12b2fbea100e75b4e1426071cdba4d0e4556f46077e0819cdcb405a"
+    },
+    {
+      "path": "ramdisk-modules/shared_rail_scmi.ko",
+      "size": 11640,
+      "sha256": "15a3064ffb191060cf78209718fc0212c93fab6c2cfa3f89ce5f543258eebeda"
+    },
+    {
+      "path": "ramdisk-modules/shared_rail_vendor.ko",
+      "size": 12776,
+      "sha256": "a4352ca3ed10a1cadf843e33707eb5171ec419d2645a7e40fad8516731c74ec2"
+    },
+    {
+      "path": "ramdisk-modules/shutdown_detect.ko",
+      "size": 40424,
+      "sha256": "ad4c64a7cdf569e050b6e846e3cc78bcfe29a2c4caf2a4b87330dc7dcbebd4a9"
+    },
+    {
+      "path": "ramdisk-modules/shutdown_speed.ko",
+      "size": 10240,
+      "sha256": "7934c63e14d26f803831fc379abc7dcc15236095b304e6347a2095c32048f893"
+    },
+    {
+      "path": "ramdisk-modules/sim_detect.ko",
+      "size": 16840,
+      "sha256": "c1ed14d4e76a3820651b1eab082a831bccd202a1306ce713921f86d3fc3b121a"
+    },
+    {
+      "path": "ramdisk-modules/simcardnum.ko",
+      "size": 10120,
+      "sha256": "d8fc59e932bafb446ef1c1f394a6c939a676a2c199163de36c18f9f61781f394"
+    },
+    {
+      "path": "ramdisk-modules/slim-qcom-ngd-ctrl.ko",
+      "size": 121880,
+      "sha256": "0491f88e726cfaab7e34089e4a91b43a046ca4afed49e043820c7f207f9f6e1a"
+    },
+    {
+      "path": "ramdisk-modules/slimbus.ko",
+      "size": 58552,
+      "sha256": "a3faa5d0d5b118ce010dcb951e5fd881616f61ae810431a6f3c5c6b74ad1c34e"
+    },
+    {
+      "path": "ramdisk-modules/smcinvoke_mod.ko",
+      "size": 276704,
+      "sha256": "8e7684e9ced77caaa05521783cd633759da39f89f60520de94a181cc6c97ffe3"
+    },
+    {
+      "path": "ramdisk-modules/smem.ko",
+      "size": 27176,
+      "sha256": "7e585ddb97b5f0c1f52ffb2b84f3f32df82f8685b77ad2dea487af3314bbd42f"
+    },
+    {
+      "path": "ramdisk-modules/smp2p.ko",
+      "size": 36128,
+      "sha256": "3f9535f37260325a28a86cd1e110c86f0940e9207e4d7f9f9b23babba14bd4cb"
+    },
+    {
+      "path": "ramdisk-modules/smp2p_sleepstate.ko",
+      "size": 15136,
+      "sha256": "00d88ddc7517ead818c0ab22afcb4a66ac29c4e0686cf3b08f219a3751f5cbf7"
+    },
+    {
+      "path": "ramdisk-modules/snd-usb-audio-qmi.ko",
+      "size": 82448,
+      "sha256": "2da949a0c41a21cd2ede74963cb89c1b2016e8737fd9735a691f7273bc7ce849"
+    },
+    {
+      "path": "ramdisk-modules/soc_sleep_stats.ko",
+      "size": 53664,
+      "sha256": "a6a1d03b7867dbba250143e06c9e51ab610c845b0d1109e6c75e78729a748266"
+    },
+    {
+      "path": "ramdisk-modules/socinfo.ko",
+      "size": 55456,
+      "sha256": "eb836989668c1e8e8a46f420f2ed900f344ca531c56bcc229ac06d0330a4d973"
+    },
+    {
+      "path": "ramdisk-modules/spcom.ko",
+      "size": 183984,
+      "sha256": "36b33d191b8795e50e72ea6339e3b3717d9fb530e723246db884c0165f13c566"
+    },
+    {
+      "path": "ramdisk-modules/spi-msm-geni.ko",
+      "size": 91848,
+      "sha256": "111ae5371e49ae19275d3f0fb97b3837bf5d4250fce39b07a2f36d17a5319bec"
+    },
+    {
+      "path": "ramdisk-modules/spmi-glink-debug.ko",
+      "size": 19760,
+      "sha256": "7e3c69dda5b97c9d73fd808a9763fa665e55697de9232dc1367ff0c036fde8fc"
+    },
+    {
+      "path": "ramdisk-modules/spmi-pmic-arb-debug.ko",
+      "size": 24552,
+      "sha256": "e65cedb53c6bde243332f28afaa470f6ef9eb93ea7d642478b392e535c486fb2"
+    },
+    {
+      "path": "ramdisk-modules/spmi-pmic-arb.ko",
+      "size": 76216,
+      "sha256": "2c0f70bbdb677573042fb780c74a67b69b01558ea4c06dfc1b384a1a05dc4cd7"
+    },
+    {
+      "path": "ramdisk-modules/sps_drv.ko",
+      "size": 493448,
+      "sha256": "35f61f23c85050ba9924236860db6202b4b8a86d116d3f9d94bab9f2ba900b1d"
+    },
+    {
+      "path": "ramdisk-modules/spss_utils.ko",
+      "size": 66376,
+      "sha256": "147f04e55eb2f371c925e9ad5dc7851d8562a9d9c15d038abe1a81356b0853e9"
+    },
+    {
+      "path": "ramdisk-modules/ssc_interact.ko",
+      "size": 42568,
+      "sha256": "b5ab8c2f604574d46294458f6464634151e873150b0f171d8b0dea1a27ddcfad"
+    },
+    {
+      "path": "ramdisk-modules/ssusb-redriver-nb7vpq904m.ko",
+      "size": 49808,
+      "sha256": "731770b4d071579286e7861a2196b2c033e3ff3ff22733840385217b1cea20a6"
+    },
+    {
+      "path": "ramdisk-modules/stm_console.ko",
+      "size": 11768,
+      "sha256": "0e753b21028f44636c196b2647e087aff6761768e191293e0bd4573a43373ad3"
+    },
+    {
+      "path": "ramdisk-modules/stm_core.ko",
+      "size": 69648,
+      "sha256": "1826a7c8bb051e47c5f5dae6649e71de5e09496c8b6553288690764bf2bc6930"
+    },
+    {
+      "path": "ramdisk-modules/stm_ftrace.ko",
+      "size": 13000,
+      "sha256": "6553f83a623d2841b467817aa06ee4a26e08448070c4999c5bf8bda436c6a23f"
+    },
+    {
+      "path": "ramdisk-modules/stm_p_basic.ko",
+      "size": 11384,
+      "sha256": "84bffc9949181f11f4f88219d3ceebae9056ef9f1893d0affc1066615742c0d6"
+    },
+    {
+      "path": "ramdisk-modules/stm_p_ost.ko",
+      "size": 11840,
+      "sha256": "5e4530dc6b0e8591d12a82a2333dcfd5bc0ea8a93165783f4a5fd960a835729d"
+    },
+    {
+      "path": "ramdisk-modules/stub-regulator.ko",
+      "size": 17960,
+      "sha256": "b38356c3791eb67c6a3114f94ad7d047abcc4ebaaf833e2370b9f4e2c2531c24"
+    },
+    {
+      "path": "ramdisk-modules/subsystem_sleep_stats.ko",
+      "size": 35408,
+      "sha256": "8a47448cb4414e174585208715ac21aef6848e348c34b3cebe3606a0fece11cc"
+    },
+    {
+      "path": "ramdisk-modules/synaptics_tcm2.ko",
+      "size": 626920,
+      "sha256": "9672b86947fffa080d40069d3c5396412da1bfa8fc3f11ed1c13c884339cc304"
+    },
+    {
+      "path": "ramdisk-modules/synx-driver.ko",
+      "size": 142760,
+      "sha256": "a9f896472fbb5e73171fc2b31ac7244657c952910899b36fae70d9c626a21a0d"
+    },
+    {
+      "path": "ramdisk-modules/sys_pm_vx.ko",
+      "size": 37568,
+      "sha256": "2b34831d7fc12b12c23a4c2bdf65e21c32addc042bf414737199da526362f703"
+    },
+    {
+      "path": "ramdisk-modules/sysmon_subsystem_stats.ko",
+      "size": 40912,
+      "sha256": "0ae840c104a1ef7d3dedc7c57fb88a1cd835fdfdd2dde149be9595393e52c0c3"
+    },
+    {
+      "path": "ramdisk-modules/task_overload.ko",
+      "size": 38808,
+      "sha256": "430ebec0a7a3b4eefb3329eef6bc502c1e1b1da9085b9e1f8b66bf61fd36708a"
+    },
+    {
+      "path": "ramdisk-modules/tcpc_class.ko",
+      "size": 634192,
+      "sha256": "1b68b9ed7afe57a9d0c914b1960abbc8dd115b22c01aaff5e832e4137aeba065"
+    },
+    {
+      "path": "ramdisk-modules/test-kit.ko",
+      "size": 52376,
+      "sha256": "3512dd3b6bf534d2f45fb066a14d216ccc1cf61be37883bf23a6b5fa3a9a17b4"
+    },
+    {
+      "path": "ramdisk-modules/thermal_pause.ko",
+      "size": 28928,
+      "sha256": "4f4c1989675b6085b7b6c9faff7f482d9e343af1fac258714e83983408efc51a"
+    },
+    {
+      "path": "ramdisk-modules/tmecom-intf.ko",
+      "size": 37288,
+      "sha256": "447c49a9fd676b2211baaa161fe83082449e3c3573b3675b8726c347bcda958c"
+    },
+    {
+      "path": "ramdisk-modules/tms_device_modules.ko",
+      "size": 105464,
+      "sha256": "b32e7a59cd58135bcd50ba8ba43b6e2641cfd5e0aa3c78d53c5e4f788c2e5b1b"
+    },
+    {
+      "path": "ramdisk-modules/tz_log.ko",
+      "size": 48904,
+      "sha256": "90c885ff3672e8ef938c5146a9e21bac72375a01ed8ca24933ac94e839926530"
+    },
+    {
+      "path": "ramdisk-modules/ua_cpu_ioctl.ko",
+      "size": 54592,
+      "sha256": "bffd94d836a0cac7d0e7fee454ea23cd446aa3922dc7a72c03e7f1353bd8ee05"
+    },
+    {
+      "path": "ramdisk-modules/ucsi_glink.ko",
+      "size": 35808,
+      "sha256": "b3659a25eb51571807ddee3a328a379904ca910aea89f4cea05f6a6f4559131d"
+    },
+    {
+      "path": "ramdisk-modules/ufcs_class.ko",
+      "size": 284544,
+      "sha256": "1d74caffd2ae3073cfca4f3bc5b2758cb3499c3ed1d60e342ea9c6a4949987b0"
+    },
+    {
+      "path": "ramdisk-modules/uff_fp_driver.ko",
+      "size": 116288,
+      "sha256": "034b9e7531663688a68936718cbc4f5084a2e888c5da172a726a5edf33f9bb8b"
+    },
+    {
+      "path": "ramdisk-modules/ufs_qcom.ko",
+      "size": 505128,
+      "sha256": "20be3690ad557332891ffda135d0ebd0d0e1c383492d48668161971d52cf06e8"
+    },
+    {
+      "path": "ramdisk-modules/ufshcd-crypto-qti.ko",
+      "size": 18488,
+      "sha256": "7c5f8e773967a66f5ea8c724eb0d4141390a8af8efc55171e3c49f27327a2034"
+    },
+    {
+      "path": "ramdisk-modules/usb_bam.ko",
+      "size": 86552,
+      "sha256": "39e7ec8051d290c701ea4ab1d7d202315ab502f1cc33f40a291482b79dd5b471"
+    },
+    {
+      "path": "ramdisk-modules/usb_f_ccid.ko",
+      "size": 55304,
+      "sha256": "817ca50f8643be862d48cfbee8433fd81cef5029c1c35e776d98182649a70356"
+    },
+    {
+      "path": "ramdisk-modules/usb_f_cdev.ko",
+      "size": 75760,
+      "sha256": "9c9e118c2823ec4e8413dacc9d444f1d20bc9d3e72c2a443f7c596c0551fdc39"
+    },
+    {
+      "path": "ramdisk-modules/usb_f_diag.ko",
+      "size": 47872,
+      "sha256": "c9912a67b0716581d9b49d4fdef267d27437e5b5745a72801114fc1436145aaf"
+    },
+    {
+      "path": "ramdisk-modules/usb_f_gsi.ko",
+      "size": 164752,
+      "sha256": "bba2d9e55261e978db8b775faded1bb68c8afed00ec4e578d71b56c3875f83d3"
+    },
+    {
+      "path": "ramdisk-modules/usb_f_qdss.ko",
+      "size": 58368,
+      "sha256": "9aac95f0c10cae4475b2eebb19399abd31ea914017408f05b955cf4e76fe9b30"
+    },
+    {
+      "path": "ramdisk-modules/videocc-diwali.ko",
+      "size": 39120,
+      "sha256": "2e0cc187450fb68151e0671649cf3018566dcea0819f69750d8d39919dc62455"
+    },
+    {
+      "path": "ramdisk-modules/videocc-waipio.ko",
+      "size": 41312,
+      "sha256": "efdb57898980184c03d3e50f2d7f4d2f7de4e28e0dff3778fc5e3124de193240"
+    },
+    {
+      "path": "ramdisk-modules/wlan_firmware_service.ko",
+      "size": 84576,
+      "sha256": "769604a7c89b1803557308f88e6523374a9df6a48632eda6a72bfb27e573fda4"
+    }
+  ]
+}

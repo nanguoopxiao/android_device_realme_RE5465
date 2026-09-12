@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="re5465-github" fetch="https://github.com/" />
+  <project name="nanguoopxiao/android_device_realme_RE5465"
+           path="device/realme/RE5465"
+           remote="re5465-github"
+           revision="lineage-23.2" />
+</manifest>

@@ -1,0 +1,13 @@
+/recovery/adb_keys
+__pycache__/
+*.pyc
+/local/
+/out/
+*.img
+*.ko
+*.pem
+*.key
+*.7z
+*.zip
+*.tar*
+.env*
