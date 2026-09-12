@@ -4,13 +4,14 @@ Device-specific Android source bring-up for **realme GT2 Master Explorer Edition
 (真我 GT2 大师探索版)**, hardware project **21605**, Qualcomm **SM8475**.
 The initial target is **LineageOS 23.2 / Android 16**.
 
-**Status: recovery compiles and passed 26 static checks. A complete ROM build,
-device boot, recovery touchscreen and userdata decryption have not been
-validated. This repository is a development baseline, not a flashable release.**
+**Status: framework images compile, Recovery boots, and authenticated root ADB
+works on the device after fixing USB role initialization and its SELinux label.
+Recovery menu interaction, fastbootd, userdata decryption and a complete ROM
+boot still need validation. This is a development baseline, not a flashable release.**
 
 ## What is here
 
-- Android product definitions, BoardConfig, fstab and recovery USB configuration.
+- Android product definitions, BoardConfig, fstab, recovery USB configuration and its scoped policy.
 - Captured module loading order and a SHA-256 manifest for the matched hardware inputs.
 - Hardware observations, source provenance, build instructions and a porting checklist.
 - A local prebuilt staging tool; each developer supplies their own hardware files
@@ -52,9 +53,10 @@ your own ADB public key before selecting `lineage_RE5465-bp4a-userdebug`.
 
 ## 中文说明
 
-这是本机专用源码适配的起点，已经完成设备资料核对、Lineage Recovery
-编译和 26 项静态检查。**完整系统、实机启动、触控、指纹、相机和 data
-解密尚未验收。** 后续适配其他 ROM 时，可以复用这里的硬件信息和板级配置，
+这是本机专用源码适配的起点，已经完成系统镜像构建、Lineage Recovery
+启动和 root ADB 实机连接验证。已修正 misc 的 bootdevice 路径及 USB 模式
+控制节点的 SELinux 配置。**Recovery 菜单操作、fastbootd、完整系统启动、
+指纹、相机和 data 解密尚未验收。** 后续适配其他 ROM 时，可以复用这里的硬件信息和板级配置，
 再调整对应系统的产品入口、HAL、vendor 依赖、VINTF 和 SELinux。
 
 当前保留匹配的预编译内核及硬件分区作为初期基线。固件文件和电脑的 ADB

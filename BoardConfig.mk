@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # Initial source bring-up: kernel and hardware images are a verified baseline.
-# This configuration has not yet passed a complete ROM build or boot test.
+# System images build successfully; complete device boot validation is pending.
 DEVICE_PATH := device/realme/RE5465
 RE5465_VENDOR_PATH := vendor/realme/RE5465
 
@@ -19,6 +19,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Explicit interfaces exported by the retained QCOM/Oplus vendor baseline.
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/framework_compatibility_matrix.xml
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Launch API comes from RMX3551 stock vendor, not donor model properties.
 BOARD_SHIPPING_API_LEVEL := 31

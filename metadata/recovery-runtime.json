@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-12",
+  "scope": "On-device Recovery diagnostics with the existing matched kernel and hardware baseline",
+  "initial_recovery_display_observed": true,
+  "bcb_path_error_resolved": true,
+  "authenticated_root_adb_observed": true,
+  "usb_mode": "peripheral",
+  "udc_state": "configured",
+  "usb_role_node_label": "vendor_sysfs_usb_role",
+  "policy_grant": {
+    "domain": "init",
+    "build_scope": "recovery",
+    "class": "file",
+    "permissions": [
+      "getattr",
+      "open",
+      "write"
+    ]
+  },
+  "global_selinux_relaxed": false,
+  "touchscreen_detected": true,
+  "touchscreen_axes": {
+    "x": [
+      0,
+      8639
+    ],
+    "y": [
+      0,
+      19295
+    ]
+  },
+  "advanced_menu_issue_reproduced_after_usb_fix": false,
+  "menu_validation": "pending_user_interaction",
+  "fastbootd_validated": false,
+  "userdata_decryption_validated": false,
+  "full_rom_device_boot_validated": false,
+  "original_recovery_restore_hash_verified": true,
+  "raw_logs_and_diagnostic_payload_published": false
+}

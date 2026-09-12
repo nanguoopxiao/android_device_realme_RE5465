@@ -9,7 +9,8 @@ device configuration, not a finished OS-independent HAL/vendor implementation.
 | BoardConfig.mk | Starting point for architecture, boot layout and modules; review destination-branch variables and AVB |
 | rootdir/fstab.qcom | Review first-stage, filesystem and encryption requirements |
 | modules/ | Preserve the matched kernel/module loading order |
-| recovery/init.recovery.qcom.rc | QCOM USB setup; review the destination recovery's ADB/fastboot triggers |
+| recovery/init.recovery.qcom.rc | QCOM USB role and bootdevice alias; review the destination recovery's ADB/fastboot triggers |
+| sepolicy/vendor | Exact USB role-node label and Recovery init permissions; revalidate against the destination policy |
 | lineage_RE5465.mk | Replace Lineage-specific inheritance and product name |
 | extract-files.py | Depends on Lineage extract-utils; the proprietary list is still a placeholder |
 

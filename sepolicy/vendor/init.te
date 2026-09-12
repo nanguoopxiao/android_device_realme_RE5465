@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Recovery's QCOM init action selects peripheral mode before binding the UDC.
+# The device trace showed this exact write denied with the generic sysfs label.
+recovery_only(`
+    allow init vendor_sysfs_usb_role:file { getattr open write };
+')

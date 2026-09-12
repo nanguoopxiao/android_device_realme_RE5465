@@ -1,0 +1,2 @@
+# SPDX-License-Identifier: Apache-2.0
+genfscon sysfs /devices/platform/soc/a600000.ssusb/mode u:object_r:vendor_sysfs_usb_role:s0
