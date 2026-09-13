@@ -13,6 +13,11 @@ already be initialized.
 
 ## 2. Supply the matched hardware inputs
 
+The inputs can now be recovered from the pinned community-test02 image set using
+`scripts/extract-hardware-inputs.py`; see [the recovery workflow](VENDOR_PLAN.md).
+This is an alternative to manually assembling the layout below. It requires the
+listed Linux extraction tools and verifies every recovered input.
+
 Prepare a private directory with this layout:
 
 ```text
@@ -48,7 +53,9 @@ AOSP's `system/tools/mkbootimg/unpack_bootimg.py` can unpack the boot images. Th
 vendor ramdisk is LZ4 compressed CPIO. Preserve module names and the provided
 loading order. The hardware partition files in this baseline are raw EROFS/ext4
 images, not Android sparse containers. The staging tool deliberately requires
-matching hashes; review a new baseline as a separate change.
+matching hashes; review a new baseline as a separate change. DTBO additionally
+accepts one explicitly pinned test02 variant with the same hardware table and a
+regenerated AVB footer; the rest of the input list remains unchanged.
 
 From the Android source root, validate before copying:
 

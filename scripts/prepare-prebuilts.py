@@ -33,7 +33,8 @@ def inside(root, relative):
 
 
 def matching(path, row):
-    return path.is_file() and path.stat().st_size == row['size'] and digest(path) == row['sha256']
+    accepted = [row['sha256'], *row.get('accepted_alternate_sha256', [])]
+    return path.is_file() and path.stat().st_size == row['size'] and digest(path) in accepted
 
 
 def public_key(path):

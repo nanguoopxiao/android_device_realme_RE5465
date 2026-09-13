@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "device": "RE5465",
+  "description": "Known community-test02 containers from which the matched hardware inputs can be recovered. This is not a flash manifest.",
+  "package": "LineageOS-23.2-RE5465-20260913-community-test02",
+  "expanded_super_bytes": 11274289152,
+  "images": [
+    {
+      "name": "boot.img",
+      "size": 201326592,
+      "sha256": "8245d00bcd8a2154b97a2d8822275ab890adb00f1c093c8ba9827c61c1c4728d"
+    },
+    {
+      "name": "vendor_boot.img",
+      "size": 201326592,
+      "sha256": "2ec7b769324e482add1952b6548c915408d0449bbf89baaed1f5ff0f4903d7c8"
+    },
+    {
+      "name": "dtbo.img",
+      "size": 25165824,
+      "sha256": "891049771e49d1f31e09981f3bd0ccdf355d932608b0edff75fb95c809916840"
+    },
+    {
+      "name": "super.img",
+      "size": 4473483648,
+      "sha256": "35af04bb96593b899e45b2eeb3dfb1ccc348cd717c2c376dab810ed91fe1fda7"
+    }
+  ]
+}

@@ -47,6 +47,7 @@ selecting `lineage_RE5465-bp4a-userdebug`. Shared builds contain no personal ADB
 - [Hardware and partition notes](docs/HARDWARE.md)
 - [Reproducing the recovery build](docs/BUILDING.md)
 - [Adapting another Android distribution](docs/PORTING.md)
+- [Recovering hardware inputs and completing the vendor tree](docs/VENDOR_PLAN.md)
 - [Build validation and its limits](docs/VALIDATION.md)
 - [First full-system bring-up findings](docs/FIRST_BOOT.md)
 - [Windows flashing and installation scope](docs/FLASHING.md)

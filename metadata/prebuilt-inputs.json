@@ -13,7 +13,11 @@
     {
       "path": "dtbo.img",
       "size": 25165824,
-      "sha256": "409581ea765dd03d1c3906a59db0d0270f74b227b94b68e2b39c98bc89283c55"
+      "sha256": "409581ea765dd03d1c3906a59db0d0270f74b227b94b68e2b39c98bc89283c55",
+      "accepted_alternate_sha256": [
+        "891049771e49d1f31e09981f3bd0ccdf355d932608b0edff75fb95c809916840"
+      ],
+      "alternate_note": "community-test02 DTBO: identical DT table payload, regenerated Android development AVB footer. Only these complete-file hashes are accepted."
     },
     {
       "path": "images/odm.img",
