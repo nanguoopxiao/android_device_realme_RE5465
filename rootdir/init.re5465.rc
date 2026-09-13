@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: Apache-2.0
+# Keep the matched vendor image while providing its second-stage mount table.
+# Legacy my_* partitions and their bind mounts are absent from this product.
+on early-init
+    # Export a boot-local vendor-readable copy without opening system files to HALs.
+    copy /system_ext/etc/fstab.re5465 /dev/re5465-fstab.qcom
+    restorecon /dev/re5465-fstab.qcom
+    chmod 0644 /dev/re5465-fstab.qcom
+    mount none /dev/re5465-fstab.qcom /vendor/etc/fstab.qcom bind
+
+# The imported vendor late-fs mount can wait in vold for Boot Control before
+# the platform's late-fs early_hal start is reached. Start the vendor-designated
+# pre-data HAL class before filesystem/checkpoint operations can block init.
+on early-fs
+    class_start early_hal

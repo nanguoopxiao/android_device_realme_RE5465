@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: Apache-2.0
+# A boot-local tmpfs configuration exported by init to the vendor fstab path.
+# The immutable source stays system_file; vendors only see this runtime copy.
+type re5465_fstab_file, file_type;
+
+# Boot Control reads the table while initializing its misc/Virtual A/B access.
+# Grant configuration reads only; no vendor write or execute access to system.
+allow { init vold vendor_init hal_bootctl_server } re5465_fstab_file:file r_file_perms;
+allow init re5465_fstab_file:file { create write setattr relabelto };

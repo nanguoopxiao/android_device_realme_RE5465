@@ -66,7 +66,7 @@ The tool validates every input before writing, checks existing destination files
 and refuses to overwrite conflicting files. Identical files are reused. It does
 not download firmware, write phone partitions or alter the source dump.
 
-## 3. Configure your development computer's public ADB key
+## 3. Optional private recovery debugging key
 
 Use the public key belonging to the computer you will use for recovery
 diagnosis, for example the key created by your platform-tools installation:
@@ -75,9 +75,13 @@ diagnosis, for example the key created by your platform-tools installation:
 python3 device/realme/RE5465/scripts/prepare-prebuilts.py --adb-public-key "$HOME/.android/adbkey.pub"
 ```
 
+Skip this step for a shared build. No computer is pre-authorized by default.
+For a private lab build only, also export `RE5465_INCLUDE_PRIVATE_ADB_KEY=true`
+before building. Never distribute images built with this option enabled.
+
 This writes the ignored `recovery/adb_keys` file in the device repository. It
 rejects private-key data and a conflicting existing public key. This file is
-copied inside the debug recovery at `/product/etc/security/adb_keys`, which
+copied, only with the opt-in above, inside recovery at `/product/etc/security/adb_keys`, which
 resolves `/adb_keys` without loading the installed product or decrypting data.
 
 The checked configuration keeps ADB authentication enabled and sets

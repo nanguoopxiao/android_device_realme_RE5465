@@ -20,6 +20,7 @@ TARGET_NO_BOOTLOADER := true
 # Explicit interfaces exported by the retained QCOM/Oplus vendor baseline.
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/framework_compatibility_matrix.xml
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/system_ext/private
 
 # Launch API comes from RMX3551 stock vendor, not donor model properties.
 BOARD_SHIPPING_API_LEVEL := 31

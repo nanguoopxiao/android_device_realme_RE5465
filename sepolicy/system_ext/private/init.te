@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
+# Allow the device's early-init action to bind the reviewed runtime fstab over
+# the mount table in the retained vendor filesystem. No write access is added.
+allow init vendor_configs_file:file mounton;
