@@ -2,7 +2,7 @@
 # Windows PowerShell 5.1+, no Python or Recovery UI required.
 [CmdletBinding()]
 param(
-    [string]$PackageDirectory = $PSScriptRoot,
+    [string]$PackageDirectory = '',
     [string]$Serial,
     [ValidateSet('', 'RMX3551')][string]$Model = '',
     [switch]$Execute,
@@ -11,6 +11,9 @@ param(
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
+# Script parameter defaults can see the caller's PSScriptRoot in Windows
+# PowerShell. Resolve the default after entering this script instead.
+if (-not $PackageDirectory) { $PackageDirectory = $PSScriptRoot }
 $script:Order = @('super', 'boot_a', 'vendor_boot_a', 'dtbo_a', 'recovery_a',
     'vbmeta_system_a', 'vbmeta_vendor_a', 'vbmeta_a')
 $script:Sizes = @{

@@ -80,6 +80,23 @@ Assert-Equal $script:Calls.Count 3 'Stop on first failed write; no wipe or reboo
 $fixture = Join-Path $PSScriptRoot ('.test-work-' + [Guid]::NewGuid().ToString('N'))
 [IO.Directory]::CreateDirectory((Join-Path $fixture 'images')) | Out-Null
 try {
+    $nestedPackage = Join-Path $fixture 'package with spaces'
+    [IO.Directory]::CreateDirectory($nestedPackage) | Out-Null
+    $nestedScript = Join-Path $nestedPackage 'flash.ps1'
+    Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'flash.ps1') -Destination $nestedScript
+    # A separate command caller has no PSScriptRoot. Dot-sourcing keeps this
+    # path regression isolated from all device operations and from our mocks.
+    $quotedScript = "'" + $nestedScript.Replace("'", "''") + "'"
+    $probe = '. ' + $quotedScript + ' -PackageOnly; [Console]::Out.Write($PackageDirectory)'
+    $defaultDirectory = & powershell.exe -NoLogo -NoProfile -NonInteractive -Command $probe
+    Assert-Equal $LASTEXITCODE 0 'Default-directory probe exits normally'
+    Assert-Equal $defaultDirectory $nestedPackage 'Default directory belongs to flash.ps1, not its caller'
+    $overrideDirectory = Join-Path $fixture 'explicit package'
+    $quotedOverride = "'" + $overrideDirectory.Replace("'", "''") + "'"
+    $probe = '. ' + $quotedScript + ' -PackageOnly -PackageDirectory ' + $quotedOverride + '; [Console]::Out.Write($PackageDirectory)'
+    $actualOverride = & powershell.exe -NoLogo -NoProfile -NonInteractive -Command $probe
+    Assert-Equal $LASTEXITCODE 0 'Explicit-directory probe exits normally'
+    Assert-Equal $actualOverride $overrideDirectory 'Preserve an explicit package directory'
     $path = Join-Path $fixture 'images/super.img'
     $header = New-Object byte[] 28
     [BitConverter]::GetBytes([uint32]0xed26ff3aL).CopyTo($header, 0)
